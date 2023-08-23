@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "jquery"
+import "popperjs/dist/umd/popper"
+import "boostrap/dist/js/boostrap"
+import "boostrap/dist/css/boostrap.css"
+import { motion } from "framer-motion"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
