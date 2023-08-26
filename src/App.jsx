@@ -8,7 +8,6 @@ import Contact from "./Components/Contact";
 import Services from "./Components/Services"
 import Shop from "./Components/Shop";
 
-
 export default function App() {
   return (
     <div className="App">
