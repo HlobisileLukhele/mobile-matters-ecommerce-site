@@ -7,7 +7,6 @@ const LoginForm = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Here you can add your authentication logic.
-    // For now, let's just display a message indicating successful login.
     alert('Logged in successfully!');
   };
 
@@ -15,7 +14,6 @@ const LoginForm = () => {
     <div className="login-form">
       <h2>Login to Your Account</h2>
       <form onSubmit={handleLogin}>
-        {/* Username and password inputs */}
         <button type="submit" className="btn btn-primary">
           Login
         </button>
