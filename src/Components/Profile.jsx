@@ -13,7 +13,7 @@ const Profile = () => {
 
   return (
     <div className="profile-container">
-      <h1>Login to Your Account</h1>
+      <h2 className="login mb-4 mt-4 ">Login to Your Account</h2>
       <form onSubmit={handleLogin} className="login-form">
         <div className="mb-4">
           <label htmlFor="username" className="form-label">
