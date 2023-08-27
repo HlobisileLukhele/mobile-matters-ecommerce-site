@@ -68,3 +68,48 @@
  max-width:80% !important;
  max-height:60% !important;
 }
+
+/* Styling Profile Page */
+.profile-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-form {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  text-align: start !important;
+  margin-bottom: 20px;
+  margin-left: 12px !important;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(223, 167, 83) !important;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: white !important;
+  color: black !important;
+  border: 2pt solid  rgb(223, 167, 83) !important ;
+  font-weight:bold !important;
+  margin-bottom: 20px;
+}
+.btn-primary:hover {
+  background-color: rgb(223, 167, 83) !important;
+  border: 2pt solid black !important;
+  margin-bottom: 20px;
+}
+.Active {
+  background-color: rgb(223, 167, 83) !important;
+}
