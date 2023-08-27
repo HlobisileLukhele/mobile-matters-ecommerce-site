@@ -11,11 +11,17 @@ const MyNavbar = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  const toggleLoginForm = () => {
+    setShowLoginForm(!showLoginForm);
+  };
+
+  const [showLoginForm, setShowLoginForm] = useState(false);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to="/" className="navbar-brand d-flex justify-content-start">
+          <Link to="/" className="navbar-brand justify-content-start!">
             Mobile Matters
           </Link>
           <button
@@ -29,8 +35,8 @@ const MyNavbar = () => {
             className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`}
             id="navbarNav"
           >
-            <ul className="navbar-nav">
-              <li className="nav-item">
+            <ul className="navbar-nav d-flex justify-content-center mr-4">
+              <li className="nav-item active">
                 <Link to="/" className="nav-link">
                   Home
                 </Link>
@@ -57,11 +63,13 @@ const MyNavbar = () => {
               </li>
             </ul>
           </div>
-          <div className="d-flex justify-content-end">
-            <AccountCircleIcon />
-            <FavoriteIcon />
-            <AddShoppingCartIcon />
-           
+          <div className="d-flex justify-content-end nav-icons" >
+            <AccountCircleIcon className="nav-icon"
+              onClick={toggleLoginForm}
+              style={{ cursor: 'pointer' }}
+            />
+            <FavoriteIcon  className="nav-icon"/>
+            <AddShoppingCartIcon  className="nav-icon"/>
           </div>
         </div>
       </nav>
