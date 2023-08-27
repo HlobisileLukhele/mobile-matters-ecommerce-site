@@ -61,13 +61,21 @@ const MyNavbar = () => {
                   Shop
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/profile" className="nav-link">
+                  Profile
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="d-flex justify-content-end nav-icons" >
-            <AccountCircleIcon className="nav-icon"
-              onClick={toggleLoginForm}
-              style={{ cursor: 'pointer' }}
-            />
+          <Link to="/profile">
+             <AccountCircleIcon
+            className="nav-icon"
+            onClick={toggleLoginForm}
+            style={{ cursor: 'pointer' }}
+                />
+        </Link>
             <FavoriteIcon  className="nav-icon"/>
             <AddShoppingCartIcon  className="nav-icon"/>
           </div>
