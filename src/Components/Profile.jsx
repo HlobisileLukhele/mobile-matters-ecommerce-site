@@ -14,9 +14,11 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <h1>Login to Your Account</h1>
-      <form onSubmit={handleLogin}>
-        <div className="form-group">
-          <label htmlFor="username">Username:</label>
+      <form onSubmit={handleLogin} className="login-form">
+        <div className="mb-4">
+          <label htmlFor="username" className="form-label">
+            Username:
+          </label>
           <input
             type="text"
             id="username"
@@ -26,8 +28,10 @@ const Profile = () => {
             required
           />
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password:</label>
+        <div className="mb-4">
+          <label htmlFor="password" className="form-label">
+            Password:
+          </label>
           <input
             type="password"
             id="password"
