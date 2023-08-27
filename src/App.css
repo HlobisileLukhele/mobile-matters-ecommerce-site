@@ -69,6 +69,13 @@
  max-height:60% !important;
 }
 
+@media (max-width: 768px) {
+  .landing-page-img {
+    max-width:100% !important;
+    max-height:100% !important;
+  }
+}
+
 /* Styling Profile Page */
 .profile-container {
   text-align: center;
@@ -112,4 +119,8 @@
 }
 .Active {
   background-color: rgb(223, 167, 83) !important;
+}
+/*Styling Bottom Navigation Bar*/
+.bottom-icon{
+  color: rgb(223, 167, 83) !important;
 }
