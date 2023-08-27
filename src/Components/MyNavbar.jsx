@@ -3,6 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 
 const MyNavbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -61,24 +62,33 @@ const MyNavbar = () => {
                   Shop
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/profile" className="nav-link">
-                  Profile
-                </Link>
-              </li>
             </ul>
           </div>
-          <div className="d-flex justify-content-end nav-icons" >
+          <div className="d-flex justify-content-end nav-icons .d-sm-none .d-md-block">
           <Link to="/profile">
-             <AccountCircleIcon
-            className="nav-icon"
-            onClick={toggleLoginForm}
+            <AccountCircleIcon
+             className="nav-icon .d-sm-none"
+             onClick={toggleLoginForm}
             style={{ cursor: 'pointer' }}
-                />
+              />
         </Link>
-            <FavoriteIcon  className="nav-icon"/>
-            <AddShoppingCartIcon  className="nav-icon"/>
-          </div>
+        <Link to="./WishList">
+          <FavoriteIcon
+           className="nav-icon .d-sm-none" 
+           />
+        </Link>
+        <Link to="./Cart">
+       <AddShoppingCartIcon 
+       className="nav-icon .d-sm-none" 
+       />
+       </Link>
+
+       <Link to="./TrackOrder">
+       <LocalShippingIcon 
+       className="nav-icon .d-sm-none" 
+       />
+       </Link>
+        </div>
         </div>
       </nav>
 
