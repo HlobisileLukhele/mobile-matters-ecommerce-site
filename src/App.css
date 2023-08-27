@@ -1,38 +1,63 @@
 .App {
   text-align: center;
+  background-color: white !important;
+  color: black !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-item {
+  color:black;
+
+}
+#NavLink {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* styling Navigation bar*/
+.bg-purple {
+  background-color:var(--heading-color)!important ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page {
+  color: var(--button-text) !important;
+  font-weight:bolder !important;
+}
+
+.nav-item {
+  margin: 0 35px 0px 20px !important;
+  color: var(--normal-text) !important;
+
+}
+.nav-link {
+  color: var(--normal-text) !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bolder !important;
+  text-align: left !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+.nav-link:hover {
+  font-weight: bold !important;
+  text-decoration:underline 2pt solid  rgb(223, 167, 83) !important;
+  transform: 2s ease-in ;
+
+}
+.navbar-brand {
+  font-family: 'Great Vibes',;
+  font-size: 32px !important;
+  align-items: start !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start !important;
+  color: rgb(223, 167, 83) !important;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.active {
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-icon{
+  padding: 8px !important;
+  width: 2.6rem !important;
+  height: auto !important;
+  color:  rgb(223, 167, 83) !important;
 }
