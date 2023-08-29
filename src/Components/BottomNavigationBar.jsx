@@ -7,6 +7,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CategoryIcon from '@mui/icons-material/Category';
 
 const BottomNavigationBar = () => {
   const [value, setValue] = React.useState(0);
@@ -29,7 +30,7 @@ const BottomNavigationBar = () => {
           <BottomNavigationAction label="Wishlist" className="bottom-icon" icon={<FavoriteIcon />} />
        </Link>
 
-       <Link to="/WishList" className="nav-link">
+       <Link to="/Cart" className="nav-link">
        <BottomNavigationAction label="Cart" className="bottom-icon" icon={<AddShoppingCartIcon />} />
        </Link>
 
