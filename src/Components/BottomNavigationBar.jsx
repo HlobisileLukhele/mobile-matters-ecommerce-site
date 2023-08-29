@@ -37,6 +37,9 @@ const BottomNavigationBar = () => {
        <Link to="/TrackOrder" className="nav-link">
        <BottomNavigationAction label="Track Order" className="bottom-icon" icon={<LocalShippingIcon />} />
        </Link>
+       <Link to="/TrackOrder" className="nav-link">
+       <BottomNavigationAction label="Track Order" className="bottom-icon" icon={<CategoryIcon />} />
+       </Link>
       </BottomNavigation>
     </Box>
     </div>
