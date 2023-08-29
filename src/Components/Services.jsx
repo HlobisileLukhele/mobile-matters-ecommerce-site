@@ -1,14 +1,9 @@
 import React from "react";
 
 const About = () => (
-  <div>
-    <h1 className="title is-1">This is the Services Page</h1>
-    <p>
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-      inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus
-      et ultrices posuere cubilia curae; Duis consequat nulla ac ex consequat,
-      in efficitur arcu congue. Nam fermentum commodo egestas.
-    </p>
+  <div className="Container-fluid">
+    <h1 className="services-heading mb-4mt-4">Website Services</h1>
+    
   </div>
 );
 
