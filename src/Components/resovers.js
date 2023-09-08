@@ -1,4 +1,7 @@
-const ProductsList = [
+import Products from "./Components/Products"
+
+
+const products = [
     {
         id: '1',
         categoryId: 'Accesory',
@@ -512,22 +515,25 @@ const ProductsList = [
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G. Durable design and a huge leap in battery life.'
     },
     {
-        id:'',
+        id:'63',
         categoryId:'iPhone',
         name:'iPhone 13 Pro Max (NEW)',
         price:'19500.00',
         image: 'iphone13-Pro.png',
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G. Durable design and a huge leap in battery life.'
-    },
-    {
-        id:'',
-        categoryId:'iPhone',
-        name:'',
-        price:'',
-        image: '',
-        description: ''
-    },
-    
-    
+    },   
+    ] 
 
- ]
+  
+
+const resolvers = {
+    Query: {
+      products: () => products,
+      productsByCategory: (parent, args) => {
+        const category = args.category;
+        return products.filter(product => product.category === category);
+      },
+    },
+  };
+  
+  module.exports = resolvers;
