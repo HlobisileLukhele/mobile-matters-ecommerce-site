@@ -1,4 +1,3 @@
-import Products from "./Components/Products"
 
 
 const products = [
