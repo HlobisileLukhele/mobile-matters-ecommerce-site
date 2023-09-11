@@ -5,6 +5,8 @@ export const GET_ALL_PRODUCTS = gql`
     products {
       id
       name
+      image
+      description
       price
     }
   }
