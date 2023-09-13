@@ -1,12 +1,12 @@
 import React from "react";
-import ProductsList from "./Components/ProductsList.js"
+import ProductsList from './ProductsList'
 
-const About = () => (
-  <div>
-    <h1 className="title is-1"> Mobile matters store</h1>
-    <p>
+function Shop ()  {
+  return (
+    <div>
       <ProductsList />
-    </p>
- </div>
-)
-export default About;
+    </div>
+  )
+}
+
+export default Shop;
