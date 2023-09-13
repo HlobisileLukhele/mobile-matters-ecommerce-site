@@ -5,12 +5,11 @@ import App from './App.jsx';
 import reportWebVitals from './reportWebVitals.js';
 import 'jquery';
 import 'bootstrap/dist/css/bootstrap.css';
-import { motion } from "framer-motion";
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
 
 //set up client
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'http://localhost:3000',
   cache: new InMemoryCache(),
 });
 
@@ -22,10 +21,9 @@ client
         Products{
           id
           name
-          price
-          categoryId
-          description
           photo
+          price
+          description
         }
       }
     `,
