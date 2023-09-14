@@ -14,7 +14,7 @@ const BottomNavigationBar = () => {
   const [value, setValue] = React.useState(0);
 
   return (
-    <div className="container-fluid bottom-navbar .d-xxl-none .d-xl-none .d-lg-none .d-md-none">
+<div className="container-fluid bottom-navbar d-xxl-none d-xl-none d-lg-none d-md-none">
     <Box sx={{ width:600, height:500 }}>
       <BottomNavigation
         showLabels
