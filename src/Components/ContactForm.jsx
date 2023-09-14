@@ -14,20 +14,26 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-      <form onSubmit={handleSubmit(onSubmit)} noValodates className="contact-form">
+      <form className="contact-form"  onSubmit={handleSubmit(onSubmit)} noValidate>
         <div className="form-group">
           <label htmlFor="fullname">Full Name</label>
-          <input type='text' id="fullname" {...register("username")} />
+          <input type='text' id="fullname" {...register("username",{
+            required: "Full Name is required"
+          })} />
         </div>
 
         <div className="form-group">
           <label htmlFor="email">Email</label>
-          <input type='email' id="email" {...register("email")} />
+          <input type='email' id="email" {...register("email", {
+            required: "email is required"
+          })} />
         </div>
 
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea rows={10} cols={35} id="message" {...register("message")} />
+          <textarea rows={10} cols={35} id="message" {...register("message", {
+            required: "message is required"
+          })} />
         </div>
 
         <div className="form-group">
