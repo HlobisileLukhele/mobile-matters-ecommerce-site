@@ -89,6 +89,7 @@
 
 .form-group {
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .form-label {
@@ -169,4 +170,9 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+.error {
+  color:red;
+  font-size:12px;
+  text-align:left;
 }
