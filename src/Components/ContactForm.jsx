@@ -6,7 +6,8 @@ import { DevTool } from "@hookform/devtools";
 
 const ContactForm = () => {
   const form = useForm();
-  const { register, control, handleSubmit } = form;
+  const { register, control, handleSubmit,formState} = form;
+  const {errors} = formState;
 
   const onSubmit = (data) => {
     console.log("form submitted");
@@ -17,9 +18,10 @@ const ContactForm = () => {
       <form className="contact-form"  onSubmit={handleSubmit(onSubmit)} noValidate>
         <div className="form-group">
           <label htmlFor="fullname">Full Name</label>
-          <input type='text' id="fullname" {...register("username",{
-            required: "Full Name is required"
+          <input type='text' id="fullname" {...register("fullname",{
+            required: "Fullname is required"
           })} />
+          <p className="error">{errors.fullname?.message}</p>
         </div>
 
         <div className="form-group">
@@ -27,13 +29,15 @@ const ContactForm = () => {
           <input type='email' id="email" {...register("email", {
             required: "email is required"
           })} />
+          <p className="error">{errors.email?.message}</p>
         </div>
 
         <div className="form-group">
           <label htmlFor="message">Message</label>
           <textarea rows={10} cols={35} id="message" {...register("message", {
-            required: "message is required"
+            required: "Message is required"
           })} />
+          <p className="error">{errors.message?.message}</p>
         </div>
 
         <div className="form-group">
