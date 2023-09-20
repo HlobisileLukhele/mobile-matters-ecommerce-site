@@ -65,28 +65,28 @@ const MyNavbar = () => {
               
             </ul>
           </div>
-          <div className="d-flex justify-content-end nav-icons .d-sm-none .d-md-block">
+          <div className="d-flex justify-content-end nav-icons ">
           <Link to="/profile">
             <AccountCircleIcon
-             className="nav-icon .d-sm-none"
+             className="nav-icon d-sm-none"
              onClick={toggleLoginForm}
             style={{ cursor: 'pointer' }}
               />
         </Link>
         <Link to="./WishList">
           <FavoriteIcon
-           className="nav-icon .d-sm-none" 
+           className="nav-icon d-sm-none" 
            />
         </Link>
         <Link to="./Cart">
        <AddShoppingCartIcon 
-       className="nav-icon .d-sm-none" 
+       className="nav-icon d-sm-none" 
        />
        </Link>
 
        <Link to="./TrackOrder">
        <LocalShippingIcon 
-       className="nav-icon .d-sm-none" 
+       className="nav-icon d-sm-none" 
        />
        </Link>
         </div>
