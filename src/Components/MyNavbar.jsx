@@ -68,25 +68,25 @@ const MyNavbar = () => {
           <div className="d-flex justify-content-end nav-icons ">
           <Link to="/profile">
             <AccountCircleIcon
-             className="nav-icon d-sm-none"
+             className="nav-icon d-sm-none d-md-block d-lg-block"
              onClick={toggleLoginForm}
             style={{ cursor: 'pointer' }}
               />
         </Link>
         <Link to="./WishList">
           <FavoriteIcon
-           className="nav-icon d-sm-none" 
+           className="nav-icon d-sm-none d-md-block d-lg-block" 
            />
         </Link>
         <Link to="./Cart">
        <AddShoppingCartIcon 
-       className="nav-icon d-sm-none" 
+       className="nav-icon d-sm-none d-md-block d-lg-block" 
        />
        </Link>
 
        <Link to="./TrackOrder">
        <LocalShippingIcon 
-       className="nav-icon d-sm-none" 
+       className="nav-icon d-sm-none d-md-block d-lg-block" 
        />
        </Link>
         </div>
