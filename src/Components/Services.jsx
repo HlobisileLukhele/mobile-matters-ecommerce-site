@@ -1,73 +1,64 @@
 import React from "react";
+import ContactForm from './ContactForm';
+
 
 const Services = () => (
-
-  <div className="Container-fluid">
-    <h1 className="services-heading mb-4mt-4">Website Services</h1>
-    <img src="images/Landing page.png" alt ="web servicees pages" className="imag-fluid mb-4mt-4"/>
+  <div class="container-fluid">
+    <h2 className="mt-4 web">Web Developement Services</h2>
+    <img src="images/Landing page.png" alt="landing pages of different screen sizes" className="img-fluid landing-page "/>
+    <div class="row align-items-center">
+      <h3 className="mb-4 mt-4 plans">Explore plans</h3>
+      <div class="col-sm me-0 mr-0  mb-4 mt-4 align-items-center">
+        <div className="card bg-dark" style={{width:"25rem" }}>
+            <div className="card-body">
+              <h5 className="card-title title">Standard</h5>
+              <p className="card-text">Once-off</p>
+              <h3 className="card-title price">R2999</h3>
+            </div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Website design and Development</li>
+              <li className="list-group-item">Responsive and Mobile Friendly</li>
+              <li className="list-group-item">SEO optimized</li>
+              <li className="list-group-item">Free .co.za domain</li>
+            </ul>
+          </div>
+      </div>
+  
+      <div class="col-sm me-0 mr-0  mb-4 mt-4">
+        <div className="card bg-dark" style={{ width: "25em" }}>
+            <div className="card-body">
+              <h5 className="card-title title">E-COMMERCE</h5>
+              <p className="card-text">Once-off</p>
+              <h3 className="card-title price">R3999</h3>
+            </div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Online payment</li>
+              <li className="list-group-item">E-COMMERCE Features</li>
+              <li className="list-group-item">Responsive and Mobile Friendly</li>
+              <li className="list-group-item">SEO optimized</li>
+            </ul>
+          </div>
+      </div>
     
-  <div class="container text-center">
-    <h3 className="mb-4 mt-4 plans ">    the plans</h3>
-  <div class="row mb-4 mt-4">
-    <div class="col-sm">  
-    <div class="card" style={{width: "18rem;"}}>
-    <div class="card-body">
-    <h5 class="card-title bg-grey">Standard</h5>
-    <p class="card-text">Once-off</p>
-    <h3 class="card-title bg-grey">R2999</h3>
+      <div class="col-sm me-0 mr-0 mb-4 mt-4">
+        <div className="card bg-dark" style={{width: "25rem"}}>
+            <div className="card-body">
+              <h5 className="card-title title">Standard</h5>
+              <p className="card-text">Once-off</p>
+              <h3 className="card-title price">R2999</h3>
+            </div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Website design and Development</li>
+              <li className="list-group-item">Responsive and Mobile Friendly</li>
+              <li className="list-group-item">SEO optimized</li>
+              <li className="list-group-item">Free .co.za domain</li>
+            </ul>
+          </div>
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Website designa and Development</li>
-    <li class="list-group-item">Responsive and Mobile Friendly</li>
-    <li class="list-group-item">SEO optomized</li>
-    <li class="list-group-item">Free .co.za domain</li>
-  </ul>
 </div>
-    </div>
-    <div class="col-sm">
-  <div class="row">
-    <div class="col-sm">
-    <div class="card" style={{width:"18rem;"}}>
-    <div class="card-body">
-    <h5 class="card-title bg-grey">E-COMMERCE</h5>
-    <p class="card-text">Once-off</p>
-    <h3 class="card-title bg-grey">R3999</h3>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Online payment </li>
-    <li class="list-group-item">E-COMMERCE Features</li>
-    <li class="list-group-item">Responsive and Mobile Friendly</li>
-    <li class="list-group-item">SEO optomized</li>
-  </ul>
-</div>
-</div>
-<div  className="mb-4 mt-4"> 
-     </div>
-    <div class="col-sm">
-    <div class="row">
-    <div class="col-sm">
-    <div class="card" style={{width:"18rem;"}}>
-    <div class="card-body">
-    <h5 class="card-title bg-grey">E-COMMERCE</h5>
-    <p class="card-text">Once-off</p>
-    <h3 class="card-title bg-grey">R3999</h3>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Online payment </li>
-    <li class="list-group-item">E-COMMERCE Features</li>
-    <li class="list-group-item">Responsive and Mobile Friendly</li>
-    <li class="list-group-item">SEO optomized</li>
-  </ul>
-</div>
-</div>
-     </div>
-     </div>
-</div>
-</div>
-</div>
-</div>
+<h3 className="mt-4 text-align-center">Get In Touch</h3>
+   <ContactForm />
 </div>
 );
-
 
 export default Services;
