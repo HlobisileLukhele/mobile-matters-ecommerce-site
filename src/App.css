@@ -137,7 +137,7 @@
 }
 
 .contact-form {
-  width: 300px; /* Adjust the width as needed */
+  width: 450px; 
 }
 
 .form-group {
@@ -145,8 +145,10 @@
 }
 
 label {
-  display: block;
   margin-bottom: 5px;
+  color:rgb(223, 167, 83) !important;
+  font-weight:bold;
+  align-items: right !important;
 }
 
 input[type="text"],
@@ -154,7 +156,7 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -194,8 +196,24 @@ text-align: center;
 }
 
 .landing-page {
-  height:490px !important;
-  width:550px !important;
+  height:520px !important;
+  width:700px !important;
   display: block;
   margin: 0 auto;
+}
+/* for mobile screen */
+
+.landing-page {
+  height:520px !important;
+  width:750px !important;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-sm {
+    align-items: center !important;
+    display:block !important;
+    margin:0 auto !important;
+  }
 }
