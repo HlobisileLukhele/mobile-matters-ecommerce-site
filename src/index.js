@@ -1,41 +1,32 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.jsx';
-import reportWebVitals from './reportWebVitals.js';
-import 'jquery';
 import 'bootstrap/dist/css/bootstrap.css';
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { ApolloServer, gql } from 'apollo-server-express';
+import { typeDefs } from './Schema/type-defs'; 
+import { resolvers } from './Schema/resolvers'; 
 
-//set up client
-const client = new ApolloClient({
-  uri: 'http://localhost:3000',
-  cache: new InMemoryCache(),
+
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
 });
 
 
-client
-  .query({
-    query: gql`
-      query GetProducts{
-        Products{
-          id
-          name
-          photo
-          price
-          description
-        }
-      }
-    `,
-  })
-  .then((result) => console.log(result));
+const client = new ApolloClient({
+  uri: 'http://localhost:4000',
+  cache: new InMemoryCache(),
+});
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <ApolloProvider client={client}>
-    <App />
-  </ApolloProvider >
+ReactDOM.render(
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
+  document.getElementById('root')
 );
 
-reportWebVitals();
+
+console.log('GraphQL server running at http://localhost:4000/graphql');
