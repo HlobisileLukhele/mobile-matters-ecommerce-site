@@ -6,8 +6,7 @@ const Profile = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Here you can add your authentication logic.
-    // For now, let's just display a message indicating successful login.
+    // to add your authentication logic.
     alert('Logged in successfully!');
   };
 
