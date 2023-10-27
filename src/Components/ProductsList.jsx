@@ -1,11 +1,7 @@
-import {useQuery} from '@apollo/client'
-import { GET_ALL_PRODUCTS } from './graphqlQueries.jsx'
+import ProductData from "./ProductsData";
 
 function ProductsList () {
-    const {loading, error, data} = useQuery(GET_ALL_PRODUCTS)
-    if (loading) return <p>Loading...</p>;
-    if (error) return <p>{error.message}</p>;
- 
+    
     return (
         <div>
             {data.products.map(product => (
