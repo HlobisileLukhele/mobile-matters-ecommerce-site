@@ -6,7 +6,7 @@ const LoginForm = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Here you can add your authentication logic.
+    // to add your authentication logic.
     alert('Logged in successfully!');
   };
 
