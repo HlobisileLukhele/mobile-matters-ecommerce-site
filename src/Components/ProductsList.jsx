@@ -1,4 +1,6 @@
-import ProductData from "./ProductsData";
+import React from "react";
+import ProductsData from "./ProductsData";
+
 
 function ProductsList () {
     
