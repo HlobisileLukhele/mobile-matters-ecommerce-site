@@ -6,12 +6,11 @@ const Footer = () => (
     <div classNameName="container-fluid my-5">
   <footer
           classNameName="text-center text-lg-start text-white"
-          style="background-color: #1c2331"
+          style={{"background-color": '#1c2331'}}
           >
    
     <section
              className="d-flex justify-content-between p-4"
-             style="background-color: #6351ce"
              >
       <div className="me-5">
         <span>Get connected with us on social networks:</span>
@@ -105,7 +104,7 @@ const Footer = () => (
     </section>
     <div
          className="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
+         style={{ "background-color": 'rgba(0, 0, 0, 0.2)' }}
          >
       © 2023 Mobile Matters 
       <a className="text-white" href="https://mdbootstrap.com" />
