@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Footer = () => (
 
     <div classNameName="container-fluid my-5">
@@ -12,8 +11,7 @@ const Footer = () => (
     <section
              className="d-flex justify-content-between p-4"
              >
-      <div className="me-5">
-        <span>Get connected with us on social networks:</span>
+      <div className="">
       </div>
 
       <div>
@@ -74,10 +72,10 @@ const Footer = () => (
                 style={{width: "60px; background-color: #7c4dff; height: 2px"}}
                 />
             <p>
-              <a href="#!" className="text-white">Your Account</a>
+              <a href="#!" className="text-white">Prices </a>
             </p>
             <p>
-              <a href="#!" className="text-white">Become an Affiliate</a>
+              <a href="#!" className="text-white">Websites Services</a>
             </p>
             <p>
               <a href="#!" className="text-white">Shipping Rates</a>
