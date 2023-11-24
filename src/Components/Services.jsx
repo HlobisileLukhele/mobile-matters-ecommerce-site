@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 
 const Services = () => (
-  <div class="container-fluid">
+  <div class="container-fluid items-center text-align-center">
     <h2 className="mt-4 web">Web Developement Services</h2>
     <img src="images/Landing page.png" alt="landing pages of different screen sizes" className="img-fluid landing-page "/>
     <div class="row align-items-center">
