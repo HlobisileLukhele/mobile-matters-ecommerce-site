@@ -13,13 +13,13 @@ const BottomNavigationBar = () => {
   const [value, setValue] = React.useState(0);
 
   return (
-<div className="container-fluid bottom-navbar d-xxl-none d-xl-none d-lg-none d-md-none">
-    <Box sx={{ width:600, height:500 }}>
+<div className="BottomNavigation container-fluid bottom-navbar d-xxl-none d-xl-none d-lg-none d-md-none">
+    <Box sx={{ width:340, height:100, position: 'fixed', top:715 }}>
       <BottomNavigation
-        showLabels
+        showlabel={true}
         value={value}
         onChange={(event, newValue) => {
-          setValue(newValue);
+        setValue(newValue);
         }}
       >
         <Link to="/profile" className="nav-link">
@@ -35,14 +35,12 @@ const BottomNavigationBar = () => {
        </Link>
 
        <Link to="/TrackOrder" className="nav-link">
-       <BottomNavigationAction label="Track Order" className="bottom-icon" icon={<LocalShippingIcon />} />
+       <BottomNavigationAction label="Track Order" className="bottom-icon 4th" icon={<LocalShippingIcon />} />
        </Link>
 
        <Link to="/TrackOrder" className="nav-link">
-       <BottomNavigationAction label="Search product" className="bottom-icon" icon={<FindInPageIcon />} />
+       <BottomNavigationAction label="Search product" className="bottom-icon 5th" icon={<FindInPageIcon />} />
        </Link>
-       
-       
       </BottomNavigation>
     </Box>
     </div>
