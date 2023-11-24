@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
   background-color: white !important;
@@ -49,7 +53,6 @@
   align-items: start !important;
   display: flex;
   justify-content: flex-start !important;
-  color: rgb(223, 167, 83) !important;
   
 }
 .active {
@@ -59,7 +62,8 @@
   padding: 8px !important;
   width: 2.6rem !important;
   height: auto !important;
-  color:  rgb(223, 167, 83) !important;
+  color:  gray !important;
+  font-weight: bold;
 }
 
 /* Styling he Home page  */
@@ -72,7 +76,9 @@
 @media (max-width: 768px) {
   .landing-page-img {
     max-width:100% !important;
-    max-height:100% !important;
+    max-height:auto !important;
+    align-items: center !important;
+    margin: 10px 0 50px 0;
   }
 }
 
@@ -123,8 +129,21 @@
 }
 /*Styling Bottom Navigation Bar*/
 .bottom-icon{
-  color: rgb(223, 167, 83) !important;
+  color:gray !important;
+  font-weight: 600;
 }
+.bottom-icon:hover {
+  color:black !important;
+}
+
+.bottom-icon:active {
+  color:black !important;
+}
+
+.bottom-icon:focus {  
+  color:black !important;
+}
+
 #label {
   color:black !important;
 }
@@ -186,6 +205,7 @@ color:rgb(223, 167, 83) !important;
 font-weight:bold;
 font-size: 20px;
 text-align: center;
+margin: 50px 0 60px 0;
 }
 
 .card-text {
@@ -203,12 +223,7 @@ text-align: center;
 }
 /* for mobile screen */
 
-.landing-page {
-  height:520px !important;
-  width:750px !important;
-  display: block;
-  margin: 0 auto;
-}
+
 
 @media only screen and (max-width: 600px) {
   .col-sm {
@@ -216,4 +231,16 @@ text-align: center;
     display:block !important;
     margin:0 auto !important;
   }
+  .landing-page {
+    height:100% !important;
+    width:auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+ 
 }
+
+
+
+
