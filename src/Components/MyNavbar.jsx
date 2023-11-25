@@ -22,7 +22,7 @@ const MyNavbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to="/" className="navbar-brand justify-content-start!">
+          <Link to="/" className="navbar-brand justify-content-start! text-sm">
             Mobile Matters
           </Link>
           <button
@@ -68,25 +68,25 @@ const MyNavbar = () => {
           <div className="d-flex justify-content-end nav-icons ">
           <Link to="/profile">
             <AccountCircleIcon
-             className="nav-icon d-sm-none d-md-block d-lg-block"
+             className="nav-icon d-none d-md-block d-lg-block"
              onClick={toggleLoginForm}
             style={{ cursor: 'pointer' }}
               />
         </Link>
         <Link to="./WishList">
           <FavoriteIcon
-           className="nav-icon d-sm-none d-md-block d-lg-block" 
+           className="nav-icon  d-none d-md-block d-lg-block d-md-block d-lg-block" 
            />
         </Link>
         <Link to="./Cart">
        <AddShoppingCartIcon 
-       className="nav-icon d-sm-none d-md-block d-lg-block" 
+       className="nav-icon  d-none d-md-block d-lg-block d-md-block d-lg-block" 
        />
        </Link>
 
        <Link to="./TrackOrder">
        <LocalShippingIcon 
-       className="nav-icon d-sm-none d-md-block d-lg-block" 
+       className="nav-icon d-none d-md-block d-lg-block" 
        />
        </Link>
         </div>
