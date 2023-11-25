@@ -6,23 +6,18 @@
   text-align: center;
   background-color: white !important;
   color: black !important;
-
 }
 
 .navbar-item {
   color:black;
-
 }
 #NavLink {
   color: black;
 }
-
-
 /* styling Navigation bar*/
 .bg-purple {
   background-color:var(--heading-color)!important ;
 }
-
 .page {
   color: var(--button-text) !important;
   font-weight:bolder !important;
