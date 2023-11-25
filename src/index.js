@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.css';
 
-    ReactDOM.render(
-            <App /> ,
-        document.getElementById('root')
-    );
+
+document.getElementById('root');
+const root = ReactDOM.createRoot('root');
+root.render(<App />);
 
 export default App ;
