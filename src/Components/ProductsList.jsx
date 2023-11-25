@@ -1,21 +1,17 @@
 import React from "react";
-import ProductsData from "./ProductsData";
+import ProductsData from "./ProductsData.js";
 
-
-function ProductsList () {
-    
+export default  function ProductsList () {
+    const Products = ProductsData;
     return (
-        <div>
-            {data.products.map(product => (
-                <div key={product.id}>
-                <h6>{product.name}</h6>
-                <img src={product.image} alt ={product.name} />
-                <p>{product.description}</p>
-                <p>Price : ${product.price}</p>    
-                </div>
-            ))}
+       <div>
+       {ProductsData.map((product) =>(
+        <div key={product.id}>
+        <h2>{product.name}</h2>
+        <img src={product.image} alt={product.name} />
+        <span>Price: ${product.price}</span>
         </div>
-    );
+       ))}
+       </div>
+    );  
 }
-
-export default ProductsList;
