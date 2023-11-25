@@ -3,7 +3,6 @@ import "../App.css";
 import { useForm } from 'react-hook-form';
 import { DevTool } from "@hookform/devtools";
 
-
 const ContactForm = () => {
   const form = useForm();
   const { register, control, handleSubmit,formState} = form;
