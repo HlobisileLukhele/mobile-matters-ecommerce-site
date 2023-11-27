@@ -113,14 +113,6 @@ const ProductsData = [
         description: 'Stylish airpods 2nd gen case that ensure your airpods ar always protected',
     },
     {
-        id: '14',
-        categoryId: 'Accesory',
-        name: 'Wireless Magsafe Charger Clear',
-        price: '150.00',
-        image: '/images/products/Magsafe-charger.png',
-        description: 'Wireless clear magSafe case to protect your iphone, available in iPhone X, iPhone 11, iPhone 12,iPhone 13, iPhone 14'
-    },
-    {
         id:'15',
         categoryId:'Accesory',
         name:'Apple Pencil 1st Generation',
@@ -159,14 +151,6 @@ const ProductsData = [
         price:'6200.00',
         image: '/images/products/apple-watch-series-6-1.png',
         description: 'Track your workouts and activity more precisely than ever—in the water, at the gym, or on the road. See your metrics without raising your wrist on the enhanced Always-On Retina display. Go to new heights, lengths, and depths with GPS, real-time elevation, and the built-in compass for navigation. Close your Activity rings for a healthier day.'
-    },
-    {
-        id:'20',
-        categoryId:'iPhone',
-        name:'Apple Iphone 5s 16GB Silver',
-        price:'1700.00',
-        image: '',
-        description: '4 LED-backlit IPS LCD Multi-Touchscreen w/ Protective Corning Gorilla Glass Oleophobic Coating. Front-Facing 1.2 Megapixel Camera + Video .Dual-Core 1.3 GHz Cyclone (ARM v8-based) Processor .Chipset: Apple A7, PowerVR G6430 (quad-core graphics Internal Memory: 16GB, 1GB RAM DDR3'
     },
     {
         id:'21',
