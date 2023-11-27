@@ -30,7 +30,7 @@ const BottomNavigationBar = () => {
           <BottomNavigationAction label="Wishlist" className="bottom-icon" icon={<FavoriteIcon />} />
        </Link>
 
-       <Link to="/TrackOrder" className="nav-link">
+       <Link to="/Category" className="nav-link">
        <BottomNavigationAction label="Category" className="bottom-icon" icon={<CategoryIcon />} />
        </Link>
 
@@ -38,7 +38,7 @@ const BottomNavigationBar = () => {
        <BottomNavigationAction label="Track Order" className="bottom-icon 4th" icon={<LocalShippingIcon />} />
        </Link>
 
-       <Link to="/TrackOrder" className="nav-link">
+       <Link to="/SearchItem" className="nav-link">
        <BottomNavigationAction label="Search product" className="bottom-icon 5th" icon={<FindInPageIcon />} />
        </Link>
       </BottomNavigation>
