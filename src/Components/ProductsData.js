@@ -13,7 +13,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name:'Airpods 3rd gen',
         price:'1700.00',
-        image:'/images/products/airpods-3rd-gene.png',
+        image:'/images/products/airpods-3rd-gen.png',
         description: 'magic remastered With spatial audio that places sound all around you. Adaptive EQ that tunes music to your ears and longer battery life that charges up in a snap.It shrugs off sweat and showers, and delivers an experience that’s simply magical.'
     },
     {
@@ -21,7 +21,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Airpods Pro',
         price:'1700.00',
-        image:'/images/products/airpods-3rd-gene.png',
+        image:'/images/products/airpods-pro.png',
         description: 'Active Noise Cancellation for immersive sound. Transparency mode for hearing what’s happening around you. A customisable fit for all-day comfort. Magic like you’ve never heard.'
     },
     {
@@ -45,7 +45,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple 12W',
         price:'250.00',
-        image:'/images/products/apple-12W.png',
+        image:'/images/products/apple-12W-1.png',
         description: 'Use this ultra and convenient USB-based adapter to charge your phone'
     },
     {
@@ -61,7 +61,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Lightning to 3.5mm Audio Jack',
         price: '130.00',
-        image:'/images/products/Audio-jack.jpeg',
+        image:'/images/products/Audio-jack.png',
         description: 'This adapter lets you connect devices that use a 3.5 mm audio plug to your Lightning device (earphones,headphones, Aux cable etc) Suitable for iPhone 7 and newer that do not have a pin audio output.'
     },
     {
@@ -69,7 +69,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name:"Apple Fast Charging Set (Adapter + Cable)",
         price:"500.00",
-        image:"/images/products/s-pdxl.png",
+        image:"/images/products/fast charger.png",
         description:"The Apple 20W USB?C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While the power adapter is compatible with any USB?C-enabled device, Apple recommends pairing it with the 11-inch iPad Pro and 12.9-inch iPad Pro (3rd generation) for optimal charging performance. You can also pair it with iPhone 8 or later to take advantage of the fast-charging feature."
     },
     {
@@ -93,7 +93,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Samsung Fast Charging Set (Adapter + Cable)',
         price:'r300.00',
-        image:'/images/products/Sumsang-charging-set.png',
+        image:'/images/products/Samsung-charging-set.png',
         description: 'Give your devices the powerful charging support they deserve. Wall Charger for Super Fast Charging (25W) provides Super Fast Charging at up to 25W for capable devices.',
     },
     {
@@ -101,7 +101,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Samsung Type C Cable',
         price: '100.00',
-        image: '/images/products/Sumsang-Cable.png',
+        image: '/images/products/Samsung-Cable.png',
         description: 'The Samsung USB-C Cable lets you charge your USB-C device as well as sync your photos, music and data to your smartphone or laptop at blazing charge and transfer speeds. In addition, the cable also supports up to 3 Amps of power output for charging USB-C devices.'
     },
     {
@@ -109,7 +109,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple AirPods Silicone Case',
         price: '100.00',
-        image: '/images/products/airpods-case',
+        image: '/images/products/airpods-case.png',
         description: 'Stylish airpods 2nd gen case that ensure your airpods ar always protected',
     },
     {
@@ -117,7 +117,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Wireless Magsafe Charger Clear',
         price: '150.00',
-        image: '/images/products/wireless-magsafe-charger-clear.png',
+        image: '/images/products/Magsafe-charger.png',
         description: 'Wireless clear magSafe case to protect your iphone, available in iPhone X, iPhone 11, iPhone 12,iPhone 13, iPhone 14'
     },
     {
@@ -141,7 +141,7 @@ const ProductsData = [
         categoryId:'Watch',
         name:'Apple Watch Series 4 (CPO)',
         price:'3800.00',
-        image: '/images/products/-watch-series-4',
+        image: '/images/products/apple-watch-series-4.png',
         description: 'This Apple Watch features a 40mm curved watch face with an LTPO OLED Retina display and digital crown. The crown is how you navigate through watchOS 5 to view your apps and content. The crown has haptic feedback, giving each turn a mechanical click-like feel.Stay connected, stay informed, and remain healthy with the Apple Watch Series 4'
     },
     {
@@ -157,7 +157,7 @@ const ProductsData = [
         categoryId:'Watch',
         name:'Apple Watch Series 6',
         price:'6200.00',
-        image: '/images/products/apple-watch-series-6.png',
+        image: '/images/products/apple-watch-series-6-1.png',
         description: 'Track your workouts and activity more precisely than ever—in the water, at the gym, or on the road. See your metrics without raising your wrist on the enhanced Always-On Retina display. Go to new heights, lengths, and depths with GPS, real-time elevation, and the built-in compass for navigation. Close your Activity rings for a healthier day.'
     },
     {
@@ -301,7 +301,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone SE 2022 (CPO)',
         price:'4500.00',
-        image: '/images/products/iphone-SE-2nd-gen',
+        image: '/images/products/iphone-SE-2nd-gen.png',
         description: 'This is the phone to get if you just want a new iPhone that will last you a few years, but don’t want to pay a lot for it. The iPhone SE 2020 offers ‘decent but not top-end’ performance: a good camera, enough power, a great App Store to plunder and a lighter iPhone than most recent models. Battery life and screen tech could be better, the headphone jack is a miss, but – for the price – this is one of the best iPhones Apple has ever made.'
     },
     {
@@ -309,7 +309,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone SE 2022 (NEW)',
         price:'5500.00',
-        image: '/images/products/iphone-SE-2nd-gen',
+        image: '/images/products/iphone-SE-2nd-gen.png',
         description: 'This is the phone to get if you just want a new iPhone that will last you a few years, but don’t want to pay a lot for it. The iPhone SE 2020 offers ‘decent but not top-end’ performance: a good camera, enough power, a great App Store to plunder and a lighter iPhone than most recent models. Battery life and screen tech could be better, the headphone jack is a miss, but – for the price – this is one of the best iPhones Apple has ever made.'
     },
     {
@@ -429,7 +429,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 (CPO)',
         price:'9700.00',
-        image: '/images/products/iphone-12-blak.png',
+        image: '/images/products/iphone-12-black.png',
         description: '5G speed. A14 Bionic, the fastest chip in a smartphone. The iPhone 12 features Super Retina XDR display with a 6.1‐inch edge-to-edge OLED display, MagSafe wireless charging, Ceramic Shield with four times better drop performance and Night mode on every camera as well as Ultra Wide and Wide cameras.'
     },
     {
