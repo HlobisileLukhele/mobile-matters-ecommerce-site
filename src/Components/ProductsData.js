@@ -5,7 +5,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: `Airpods 2nd gen`,
         price:'800.00',
-        image:'./Products/airpods-2nd-generation.png',
+        image:'/images/products/airpods-2nd-generation.png',
         description: 'These 1st Gen Wireless AirPods for Apple (with Charging Case) are tech-savvy and easy to use. With a clear sound and comfortable to wear, these airpods are the ideal replacements.'
     },
     {
@@ -13,7 +13,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name:'Airpods 3rd gen',
         price:'1700.00',
-        image:'./Products/airpods-3rd-gene.png',
+        image:'/images/products/airpods-3rd-gene.png',
         description: 'magic remastered With spatial audio that places sound all around you. Adaptive EQ that tunes music to your ears and longer battery life that charges up in a snap.It shrugs off sweat and showers, and delivers an experience that’s simply magical.'
     },
     {
@@ -21,7 +21,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Airpods Pro',
         price:'1700.00',
-        image:'./Products/airpods-3rd-gene.png',
+        image:'/images/products/airpods-3rd-gene.png',
         description: 'Active Noise Cancellation for immersive sound. Transparency mode for hearing what’s happening around you. A customisable fit for all-day comfort. Magic like you’ve never heard.'
     },
     {
@@ -29,7 +29,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple 5W USB Power Adapter',
         price:'150.00',
-        image:'./Products/apple-5w-usb-power-adapter.png',
+        image:'/images/products/apple-5w-usb-power-adapter.png',
         description: 'Use this ultra compact and convenient USB-based adapter to charge your iPhone (suitable for iPhone 5s to iPhone 11, Pro and Pro Max require a fast charger), iPad mini, or iPod at home, on the road, or whenever it’s not connected to a computer. Comes as the adapter only, no usb cable (Must be purchased seperately)'
     },
     {
@@ -37,7 +37,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple 20W USB-C Power Adapter',
         price:'350.00',
-        image:'./Products/Fast-charger-Adapter.png',
+        image:'/images/products/Fast-charger-Adapter.png',
         description: 'The Apple 20W USB-C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While the power adapter is compatible with any USB?C-enabled device, Apple recommends pairing it with the 11-inch iPad Pro and 12.9-inch iPad Pro (3rd generation) for optimal charging performance. You can also pair it with iPhone 8 or later to take advantage of the fast-charging feature.'
     },
     {
@@ -45,7 +45,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple 12W',
         price:'250.00',
-        image:'./Products/apple-12W.png',
+        image:'/images/products/apple-12W.png',
         description: 'Use this ultra and convenient USB-based adapter to charge your phone'
     },
     {
@@ -53,7 +53,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple Lightning USB Cable',
         price:'150.00',
-        image:'./Products/cable.png',
+        image:'./images/products/cable.png',
         description: 'Lighting to USB data cable for charging your iPhone,iPod or iPad. Can also be used to sync your device to your personal computer. Comes as the cable alone. Shipping Excluded.'
     },
     {
@@ -61,7 +61,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Lightning to 3.5mm Audio Jack',
         price: '130.00',
-        image:'./Products/Audio-jack.jpeg',
+        image:'/images/products/Audio-jack.jpeg',
         description: 'This adapter lets you connect devices that use a 3.5 mm audio plug to your Lightning device (earphones,headphones, Aux cable etc) Suitable for iPhone 7 and newer that do not have a pin audio output.'
     },
     {
@@ -69,7 +69,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name:"Apple Fast Charging Set (Adapter + Cable)",
         price:"500.00",
-        image:"./Products/s-pdxl.png",
+        image:"/images/products/s-pdxl.png",
         description:"The Apple 20W USB?C Power Adapter offers fast, efficient charging at home, in the office, or on the go. While the power adapter is compatible with any USB?C-enabled device, Apple recommends pairing it with the 11-inch iPad Pro and 12.9-inch iPad Pro (3rd generation) for optimal charging performance. You can also pair it with iPhone 8 or later to take advantage of the fast-charging feature."
     },
     {
@@ -77,7 +77,7 @@ const ProductsData = [
         categoryId: "Accessories",
         name :'MagSafe Charger',
         price :"350.00",
-        image:"./Products/MagSafe-Charger.png",
+        image:"/images/products/MagSafe-Charger.png",
         descrition: 'The MagSafe Charger makes wireless charging a snap. The perfectly aligned magnets attach to your iPhone 12 or iPhone 12 Pro and provide faster wireless charging up to 15W. The MagSafe Charger maintains compatibility with Qi charging, so it can be used to wirelessly charge your iPhone 8 or later, as well as AirPods models with a wireless charging case, as you would with any Qi-certified charger. The magnetic alignment experience only applies to iPhone 12 and iPhone 12 Pro models'
     },
     {
@@ -85,7 +85,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Samsung 25W Power Bank 10,000 MAh',
         price: '600.00',
-        image: './Products/Samung-mah-10000-power-bank.png',
+        image: '/images/products/Samung-mah-10000-power-bank.png',
         description: 'The new Samsung Battery Pack comes with Samsung AFC (15W) and Quick Charge 2.0 support that lets you power up quick when you’re on the go. And with OCP functionality, you can charge safely without having to worry about excessive current levels damaging your device. Charge fast on the move Output Overcurrent Protection (OCP): OCP monitors output current and shuts off when current exceeds the maximum limit that your device can withstand.'
     },
     {
@@ -93,7 +93,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Samsung Fast Charging Set (Adapter + Cable)',
         price:'r300.00',
-        image:'./Products/Sumsang-charging-set.png',
+        image:'/images/products/Sumsang-charging-set.png',
         description: 'Give your devices the powerful charging support they deserve. Wall Charger for Super Fast Charging (25W) provides Super Fast Charging at up to 25W for capable devices.',
     },
     {
@@ -101,7 +101,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Samsung Type C Cable',
         price: '100.00',
-        image: './Products/Sumsang-Cable.png',
+        image: '/images/products/Sumsang-Cable.png',
         description: 'The Samsung USB-C Cable lets you charge your USB-C device as well as sync your photos, music and data to your smartphone or laptop at blazing charge and transfer speeds. In addition, the cable also supports up to 3 Amps of power output for charging USB-C devices.'
     },
     {
@@ -109,7 +109,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Apple AirPods Silicone Case',
         price: '100.00',
-        image: './Products/airpods-case',
+        image: '/images/products/airpods-case',
         description: 'Stylish airpods 2nd gen case that ensure your airpods ar always protected',
     },
     {
@@ -117,7 +117,7 @@ const ProductsData = [
         categoryId: 'Accesory',
         name: 'Wireless Magsafe Charger Clear',
         price: '150.00',
-        image: './Products/wireless-magsafe-charger-clear.png',
+        image: '/images/products/wireless-magsafe-charger-clear.png',
         description: 'Wireless clear magSafe case to protect your iphone, available in iPhone X, iPhone 11, iPhone 12,iPhone 13, iPhone 14'
     },
     {
@@ -125,7 +125,7 @@ const ProductsData = [
         categoryId:'Accesory',
         name:'Apple Pencil 1st Generation',
         price:'1600.00',
-        image: './Products/apple-pencil-1st-generation.png',
+        image: '/images/products/apple-pencil-1st-generation.png',
         description: 'Apple Pencil expands the power of iPad and opens up new creative possibilities. It’s sensitive to pressure and tilt so you can easily vary line weight, create subtle shading and produce a wide range of artistic effects — just like a conventional pencil, but with pixel-perfect precision.'
     },
     {
@@ -133,7 +133,7 @@ const ProductsData = [
         categoryId:'Accesory',
         name:'Apple Pencil 2nd Generation',
         price:'2300.00',
-        image: './Products/apple-pencil-2nd-generation.png',
+        image: '/images/products/apple-pencil-2nd-generation.png',
         description: 'Apple Pencil (2nd generation) delivers pixel-perfect precision and industry-leading low latency, making it great for drawing, sketching, coloring, taking notes, marking up PDFs, and more. And it’s as easy and natural to use as a pencil. Apple Pencil (2nd generation) also allows you to change tools without setting it down, thanks to its intuitive touch surface that supports double-tapping. Designed for iPad Pro, iPad Air, and iPad mini, it features a flat edge that attaches magnetically for automatic charging and pairing'
     },
     {
@@ -141,7 +141,7 @@ const ProductsData = [
         categoryId:'Watch',
         name:'Apple Watch Series 4 (CPO)',
         price:'3800.00',
-        image: './Products/-watch-series-4',
+        image: '/images/products/-watch-series-4',
         description: 'This Apple Watch features a 40mm curved watch face with an LTPO OLED Retina display and digital crown. The crown is how you navigate through watchOS 5 to view your apps and content. The crown has haptic feedback, giving each turn a mechanical click-like feel.Stay connected, stay informed, and remain healthy with the Apple Watch Series 4'
     },
     {
@@ -149,7 +149,7 @@ const ProductsData = [
         categoryId:'Watch',
         name:'Apple Watch SE',
         price:'5500.00',
-        image: './Products/apple-watch.png',
+        image: '/images/products/apple-watch.png',
         description: 'The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy. The Sport Band is made from a durable yet surprisingly soft high-performance fluoroelastomer with an innovative pin-and-tuck closure.'
     },
     {
@@ -157,7 +157,7 @@ const ProductsData = [
         categoryId:'Watch',
         name:'Apple Watch Series 6',
         price:'6200.00',
-        image: './Products/apple-watch-series-6.png',
+        image: '/images/products/apple-watch-series-6.png',
         description: 'Track your workouts and activity more precisely than ever—in the water, at the gym, or on the road. See your metrics without raising your wrist on the enhanced Always-On Retina display. Go to new heights, lengths, and depths with GPS, real-time elevation, and the built-in compass for navigation. Close your Activity rings for a healthier day.'
     },
     {
@@ -173,7 +173,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6 (CPO)',
         price:'1800.00',
-        image: './Products/iphone-6.png',
+        image: '/images/products/iphone-6.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style.'
     },
     {
@@ -181,7 +181,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 6 Plus (CPO)',
         price:'2500.00',
-        image: './Products/apple-iphone-6-old.png',
+        image: '/images/products/apple-iphone-6-old.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style.'
     },
     {
@@ -189,7 +189,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6 Plus (New)',
         price:'3000.00',
-        image: './Products/iphone.png',
+        image: '/images/products/iphone.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style.'
     },
     {
@@ -197,7 +197,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6s (CPO)',
         price:'2000.00',
-        image: './Products/apple-iphone-6-old.png',
+        image: '/images/products/apple-iphone-6-old.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6s, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style'
     },
     {
@@ -205,7 +205,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6s (New)',
         price:'2500.00',
-        image: './Products/iphone-6.png',
+        image: '/images/products/iphone-6.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6s, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style'
     },
     {
@@ -213,7 +213,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6s Plus(CPO)',
         price:'2800.00',
-        image: './Products/iphone-6.png',
+        image: '/images/products/iphone-6.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6s Plus which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style'
     },
     {
@@ -221,7 +221,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6s Plus (New)',
         price:'R3000.00',
-        image: './Products/apple-iphone-6-old.png',
+        image: '/images/products/apple-iphone-6-old.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6s Plus which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style'
     },
     {
@@ -229,7 +229,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 7 (CPO)',
         price:'2800.00',
-        image: './Products/iphone-7.png',
+        image: '/images/products/iphone-7.png',
         description: 'The iPhone 7 offers a slightly longer battery life, a better camera, fast innards and protection against water over its predecessor. While it may not be the top dog in the iPhone paddock, its lower price still makes it an attractive option.'
     },
     {
@@ -237,7 +237,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 7 (New)',
         price:'3500.00',
-        image: './Products/iphone-7.png',
+        image: '/images/products/iphone-7.png',
         description: 'The iPhone 7 offers a slightly longer battery life, a better camera, fast innards and protection against water over its predecessor. While it may not be the top dog in the iPhone paddock, its lower price still makes it an attractive option.'
     },
     {
@@ -245,7 +245,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 7 Plus (CPO)',
         price:'4000.00',
-        image: './Products/iphone-7-Plus_Gold.png',
+        image: '/images/products/iphone-7-Plus_Gold.png',
         description: 'The iPhone 7 Plus features improved water resistance, dual-lens camera with beautiful photos (12MP back and 7 MP front), better battery, and of course a 5.5 inch retina HD display.'
     },
     {
@@ -253,7 +253,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 7 Plus (New)',
         price:'4800.00',
-        image: './Products/iphone-7-Plus_Gold.png',
+        image: '/images/products/iphone-7-Plus_Gold.png',
         description: 'The iPhone 7 Plus features improved water resistance, dual-lens camera with beautiful photos (12MP back and 7 MP front), better battery, and of course a 5.5 inch retina HD display.'
     },
     {
@@ -261,7 +261,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 8 (CPO)',
         price:'4000.00',
-        image: './Products/iphone-8.png',
+        image: '/images/products/iphone-8.png',
         description: 'iPhone 8 introduces a glass design. The glass back enables easy wireless charging. And its popular camera is even better.'
     },
     {
@@ -269,7 +269,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 8 (New)',
         price:'4800.00',
-        image: './Products/iphone-8.png',
+        image: '/images/products/iphone-8.png',
         description: 'iPhone 8 introduces a glass design. The glass back enables easy wireless charging. And its popular camera is even better.'
     },
     {
@@ -277,7 +277,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 8 Plus (CPO)',
         price:'5000.00',
-        image: './Products/iphone-8-plus.png',
+        image: '/images/products/iphone-8-plus.png',
         description: 'iPhone 8 Plus introduces an all-new glass design. The world’s most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8 Plus. A new generation of iPhone.'
     },
     {
@@ -285,7 +285,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 8Plus (NEW)',
         price:'6000.00',
-        image: './Products/iphone-8-plus.png',
+        image: '/images/products/iphone-8-plus.png',
         description: 'iPhone 8 Plus introduces an all-new glass design. The world’s most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8 Plus. A new generation of iPhone.'
     },
     {
@@ -293,7 +293,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'Apple iphone SE 2022',
         price:'8000.00',
-        image: './Products/apple-se-2022.png',
+        image: '/images/products/apple-se-2022.png',
         description: 'A15 Bionic even powers advanced photography features that make each part of your photo — faces, places, everything — look fabulous. A highly efficient chip, an enhanced battery, and iOS 15 work together to boost battery life. When you do need to charge'
     },
     {
@@ -301,7 +301,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone SE 2022 (CPO)',
         price:'4500.00',
-        image: './Products/iphone-SE-2nd-gen',
+        image: '/images/products/iphone-SE-2nd-gen',
         description: 'This is the phone to get if you just want a new iPhone that will last you a few years, but don’t want to pay a lot for it. The iPhone SE 2020 offers ‘decent but not top-end’ performance: a good camera, enough power, a great App Store to plunder and a lighter iPhone than most recent models. Battery life and screen tech could be better, the headphone jack is a miss, but – for the price – this is one of the best iPhones Apple has ever made.'
     },
     {
@@ -309,7 +309,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone SE 2022 (NEW)',
         price:'5500.00',
-        image: './Products/iphone-SE-2nd-gen',
+        image: '/images/products/iphone-SE-2nd-gen',
         description: 'This is the phone to get if you just want a new iPhone that will last you a few years, but don’t want to pay a lot for it. The iPhone SE 2020 offers ‘decent but not top-end’ performance: a good camera, enough power, a great App Store to plunder and a lighter iPhone than most recent models. Battery life and screen tech could be better, the headphone jack is a miss, but – for the price – this is one of the best iPhones Apple has ever made.'
     },
     {
@@ -317,7 +317,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone X (CPO)',
         price:'5500.00',
-        image: './Products/iphone-X.png',
+        image: '/images/products/iphone-X.png',
         description: 'The iPhone X uses a glass and stainless-steel form factor and “bezel-less” design. It was the first iPhone to use an OLED screen. The home button’s fingerprint sensor was replaced with a new type of authentication called Face ID, which used sensors to scan the user’s face to unlock the devic'
     },
     {
@@ -325,7 +325,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone X (NEW)',
         price:'6600.00',
-        image: './Products/iphone-X.png',
+        image: '/images/products/iphone-X.png',
         description: 'The iPhone X uses a glass and stainless-steel form factor and “bezel-less” design. It was the first iPhone to use an OLED screen. The home button’s fingerprint sensor was replaced with a new type of authentication called Face ID, which used sensors to scan the user’s face to unlock the devic'
     },
     {
@@ -333,7 +333,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone XR (CPO)',
         price:'6000',
-        image: './Products/iphone-Xr.png',
+        image: '/images/products/iphone-Xr.png',
         description: 'The phone has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display, which Apple claims is the “most advanced LCD in the industry.” It is the least expensive device in Apple’s iPhone X line of devices. It features the same processor as the XS and XS Max.'
     },
     {
@@ -341,7 +341,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone XR (NEW)',
         price:'6800.00',
-        image: './Products/iphone-Xr.png',
+        image: '/images/products/iphone-Xr.png',
         description: 'The phone has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display, which Apple claims is the “most advanced LCD in the industry.” It is the least expensive device in Apple’s iPhone X line of devices. It features the same processor as the XS and XS Max.'
     },
     {
@@ -349,7 +349,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone Xs (CPO)',
         price:'6200.00',
-        image: './Products/iphone-xs.png',
+        image: '/images/products/iphone-xs.png',
         description: 'A Super Retina OLED display. Even faster Face ID. And a breakthrough dual-camera system. The iPhone XS is everything you love about iPhone. Taken to the extreme'
     },
     {
@@ -357,7 +357,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone Xs (NEW)',
         price:'7000.00',
-        image: './Products/iphone-xs.png',
+        image: '/images/products/iphone-xs.png',
         description: 'A Super Retina OLED display. Even faster Face ID. And a breakthrough dual-camera system. The iPhone XS is everything you love about iPhone. Taken to the extreme'
     },
     {
@@ -365,7 +365,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone Xs Max (CPO)',
         price:'6800.00',
-        image: './Products/iphone-xs.png',
+        image: '/images/products/iphone-xs.png',
         description: 'A Super Retina OLED display. Even faster Face ID. And a breakthrough dual-camera system. The iPhone XS is everything you love about iPhone. Taken to the extreme.'
     },
     {
@@ -373,7 +373,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone Xs Max (NEW)',
         price:'8300.00',
-        image: './Products/iphone-xs.png',
+        image: '/images/products/iphone-xs.png',
         description: 'A Super Retina OLED display. Even faster Face ID. And a breakthrough dual-camera system. The iPhone XS is everything you love about iPhone. Taken to the extreme.'
     },
     {
@@ -381,7 +381,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 11 (CPO)',
         price:'7300.00',
-        image: './Products/iphone-11.png',
+        image: '/images/products/iphone-11.png',
         description: 'The iPhone 11 offers one of the best cameras on a phone, terrific battery life and a fast processor.'
     },
     {
@@ -389,7 +389,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 11 (NEW)',
         price:'8700.00',
-        image: './Products/iphone-11.png',
+        image: '/images/products/iphone-11.png',
         description: 'The iPhone 11 offers one of the best cameras on a phone, terrific battery life and a fast processor.'
     },
     {
@@ -397,7 +397,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 11 Pro (CPO)',
         price:'9500',
-        image: './Products/iPhone-11-pro-max.png',
+        image: '/images/products/iPhone-11-pro-max.png',
         description: 'A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the iPhone powerful enough to be called Pro.'
     },
     {
@@ -405,7 +405,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 11 Pro (NEW)',
         price:'11000.00',
-        image: './Products/iphone-11-pro-max.png',
+        image: '/images/products/iphone-11-pro-max.png',
         description: 'A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the iPhone powerful enough to be called Pro.'
     },
     {
@@ -413,7 +413,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 11 Pro Max (CPO)',
         price:'10000.00',
-        image: './Products/iphone-11-pro-max.png',
+        image: '/images/products/iphone-11-pro-max.png',
         description: 'A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the iPhone powerful enough to be called Pro.'
     },
     {
@@ -421,7 +421,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 11 Pro Max (NEW)',
         price:'12000.00',
-        image: './Products/iphone-11-pro-max.png',
+        image: '/images/products/iphone-11-pro-max.png',
         description: 'A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the iPhone powerful enough to be called Pro.'
     },
     {
@@ -429,7 +429,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 (CPO)',
         price:'9700.00',
-        image: './Products/iphone-12-blak.png',
+        image: '/images/products/iphone-12-blak.png',
         description: '5G speed. A14 Bionic, the fastest chip in a smartphone. The iPhone 12 features Super Retina XDR display with a 6.1‐inch edge-to-edge OLED display, MagSafe wireless charging, Ceramic Shield with four times better drop performance and Night mode on every camera as well as Ultra Wide and Wide cameras.'
     },
     {
@@ -437,7 +437,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 (NEW)',
         price:'11000.00',
-        image: './Products/iphone-12-black.png',
+        image: '/images/products/iphone-12-black.png',
         description: '5G speed. A14 Bionic, the fastest chip in a smartphone. The iPhone 12 features Super Retina XDR display with a 6.1‐inch edge-to-edge OLED display, MagSafe wireless charging, Ceramic Shield with four times better drop performance and Night mode on every camera as well as Ultra Wide and Wide cameras.'
     },
     {
@@ -445,7 +445,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 Pro (CPO)',
         price:'12500.00',
-        image:'./Products/iphone_12_Pro.png',
+        image:'/images/products/iphone_12_Pro.png',
         description:'Shoot amazing videos and photos with the Ultra Wide, Wide, and Telephoto cameras. Capture your best low-light photos with Night mode. Watch HDR movies and shows on the Super Retina XDR display—the brightest iPhone display yet. Experience unprecedented performance with A13 Bionic for gaming, augmented reality (AR), and photography. And get all-day battery life and a new level of water resistance.'
     },
     {
@@ -453,7 +453,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 Pro (NEW)',
         price:'13500.00',
-        image: './Products/iphone_12_Pro.png',
+        image: '/images/products/iphone_12_Pro.png',
         description: 'Shoot amazing videos and photos with the Ultra Wide, Wide, and Telephoto cameras. Capture your best low-light photos with Night mode. Watch HDR movies and shows on the Super Retina XDR display—the brightest iPhone display yet. Experience unprecedented performance with A13 Bionic for gaming, augmented reality (AR), and photography. And get all-day battery life and a new level of water resistance.'
     },
     {
@@ -461,7 +461,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 Pro Max (CPO)',
         price:'14000.00',
-        image: './Products/iphone_12_Pro.png',
+        image: '/images/products/iphone_12_Pro.png',
         description: 'Shoot amazing videos and photos with the Ultra Wide, Wide, and Telephoto cameras. Capture your best low-light photos with Night mode. Watch HDR movies and shows on the Super Retina XDR display—the brightest iPhone display yet. Experience unprecedented performance with A13 Bionic for gaming, augmented reality (AR), and photography. And get all-day battery life and a new level of water resistance.'
     },
     {
@@ -469,7 +469,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 12 Pro Max (NEW)',
         price:'16000.00',
-        image: './Products/iphone_12_Pro.png',
+        image: '/images/products/iphone_12_Pro.png',
         description: 'Shoot amazing videos and photos with the Ultra Wide, Wide, and Telephoto cameras. Capture your best low-light photos with Night mode. Watch HDR movies and shows on the Super Retina XDR display—the brightest iPhone display yet. Experience unprecedented performance with A13 Bionic for gaming, augmented reality (AR), and photography. And get all-day battery life and a new level of water resistance.'
     },
     {
@@ -477,7 +477,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 (CPO)',
         price:'12500.00',
-        image: './Products/iPhone-13.png',
+        image: '/images/products/iPhone-13.png',
         description: 'The most advanced dual-camera system ever on iPhone. Lightning fast A15 Bionic chip. A big leap in battery life. Durable design. Superfast 5G¹. And brighter 6.1-inch and 5.4-inch Super Retina XDR display.'
     },
     {
@@ -485,7 +485,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 (NEW)',
         price:'14500.00',
-        image: './Products/iPhone-13.png',
+        image: '/images/products/iPhone-13.png',
         description: 'The most advanced dual-camera system ever on iPhone. Lightning fast A15 Bionic chip. A big leap in battery life. Durable design. Superfast 5G¹. And brighter 6.1-inch and 5.4-inch Super Retina XDR display.'
     },
     {
@@ -493,7 +493,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 Pro (CPO)',
         price:'15000.00',
-        image: './Products/iphone13-Pro.png',
+        image: '/images/products/iphone13-Pro.png',
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G. Durable design and a huge leap in battery life.'
     },
     {
@@ -501,7 +501,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 Pro (NEW)',
         price:'18000',
-        image:'./Products/iphone13-Pro.png',
+        image:'/images/products/iphone13-Pro.png',
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G¹. Durable design and a huge leap in battery life.'
     },
     {
@@ -509,7 +509,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 Pro Max (CPO)',
         price:'17200.00',
-        image: './Products/iphone13-Pro.png',
+        image: '/images/products/iphone13-Pro.png',
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G. Durable design and a huge leap in battery life.'
     },
     {
@@ -517,7 +517,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iPhone 13 Pro Max (NEW)',
         price:'19500.00',
-        image: './Products/iphone13-Pro.png',
+        image: '/images/products/iphone13-Pro.png',
         description: 'iPhone 13 Pro. The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip. Superfast 5G. Durable design and a huge leap in battery life.'
     } 
  ]; 
