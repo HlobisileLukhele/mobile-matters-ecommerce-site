@@ -173,7 +173,7 @@ const ProductsData = [
         categoryId:'iPhone',
         name:'iphone 6 Plus (New)',
         price:'3000.00',
-        image: '/images/products/iphone.png',
+        image: '/images/products/iphone-6.png',
         description: 'Keep your contacts and important documents close at hand with this Apple iPhone 6, which connects with iCloud to share documents and information with your computer. The slim design of this phone doesn’t skimp on features while being heavy on style.'
     },
     {
