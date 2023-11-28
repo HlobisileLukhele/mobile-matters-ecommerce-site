@@ -2,15 +2,15 @@ import React from 'react';
 
 const SearchItem = () => {
     return (
-        <div>
-        <h2>Search Item</h2>
+        <div className='container mt-5 mb-4'>
       <input
         type="text ml-2"
-        placeholder="Search Item "
-        value={orderNumber}
-        onChange={(e) => setOrderNumber(e.target.value)}
+        placeholder="SearchItem "
+        className='mr-2 ml-2'
       />
-      <button className="btn btn-secondary mr-2">Track</button>
+      <button className="btn btn-secondary ">Search</button>
         </div>
     )
 }
+
+export default SearchItem;
