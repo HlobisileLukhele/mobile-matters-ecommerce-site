@@ -4,6 +4,8 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CategoryIcon from '@mui/icons-material/LocalShipping';
+
 
 const MyNavbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -80,7 +82,7 @@ const MyNavbar = () => {
         </Link>
         <Link to="./Cart">
        <AddShoppingCartIcon 
-       className="nav-icon  d-none d-md-block d-lg-block d-md-block d-lg-block" 
+       className="nav-icon   d-md-block d-lg-block d-md-block d-lg-block" 
        />
        </Link>
 
@@ -89,6 +91,8 @@ const MyNavbar = () => {
        className="nav-icon d-none d-md-block d-lg-block" 
        />
        </Link>
+
+       
         </div>
         </div>
       </nav>
