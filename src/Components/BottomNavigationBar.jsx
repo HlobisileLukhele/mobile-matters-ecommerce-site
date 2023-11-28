@@ -30,7 +30,7 @@ const BottomNavigationBar = () => {
           <BottomNavigationAction label="Wishlist" className="bottom-icon" icon={<FavoriteIcon />} />
        </Link>
 
-       <Link to="/Category" className="nav-link">
+       <Link to="/Categories" className="nav-link">
        <BottomNavigationAction label="Category" className="bottom-icon" icon={<CategoryIcon />} />
        </Link>
 
