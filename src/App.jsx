@@ -13,7 +13,8 @@ import WishList from "./Components/WishList"
 import Cart from './Components/Cart';
 import TrackOrder from './Components/TrackOrder';
 import BottomNavigationBar from './Components/BottomNavigationBar';
-
+import SearchItem from "./Components/SearchItem";
+import Categories from './Components/Categories';
 
 export default function App() {
   return (
@@ -30,6 +31,8 @@ export default function App() {
             <Route path="/TrackOrder" element={<TrackOrder />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/Categories" element={<Categories />} />
+            <Route path="/SearchItem" element={<SearchItem />} />
           </Route>
         </Routes>
         <BottomNavigationBar />
