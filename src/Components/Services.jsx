@@ -3,12 +3,12 @@ import ContactForm from './ContactForm';
 
 const Services = () => (
   <div className="container-fluid items-center text-align-center">
-    <h2 className="mt-4 web">Web Developement Services</h2>
-    <img src="images/Landing page.png" alt="landing pages of different screen sizes" className="img-fluid landing-page "/>
-    <div className="row align-items-center">
+    <h2 className="mt-5 mb-4 web">Web Developement Services</h2>
+    <img src="images/Landing page.png" alt="landing pages of different screen sizes" className="img-fluid landing-page mt-4 mb-2"/>
+    <div className="row align-items-center sm:align-items-center mr-1 ml-1">
       <h3 className="mb-4 mt-4 plans">Explore plans</h3>
-      <div class="col-sm me-0 mr-0  mb-4 mt-4 align-items-center">
-        <div className="card bg-dark" style={{width:"25rem" }}>
+      <div class="col-sm col-md-4   mb-4 mt-4 sm:align-items-center mr-1 ml-1">
+        <div className="card bg-dark" style={{width:"24rem" }}>
             <div className="card-body">
               <h5 className="card-title title">Standard</h5>
               <p className="card-text">Once-off</p>
@@ -23,8 +23,8 @@ const Services = () => (
           </div>
       </div>
   
-      <div className="col-sm me-0 mr-0  mb-4 mt-4">
-        <div className="card bg-dark" style={{ width: "25em" }}>
+      <div className="col-sm col-md-4 mb-4 mt-4">
+        <div className="card bg-dark" style={{ width: "24em" }}>
             <div className="card-body">
               <h5 className="card-title title">E-COMMERCE</h5>
               <p className="card-text">Once-off</p>
@@ -39,8 +39,8 @@ const Services = () => (
           </div>
       </div>
     
-      <div class="col-sm me-0 mr-0 mb-4 mt-4">
-        <div className="card bg-dark" style={{width: "25rem"}}>
+      <div class="col-sm col-md-4  mb-4 mt-4">
+        <div className="card bg-dark" style={{width: "24rem"}}>
             <div className="card-body">
               <h5 className="card-title title">Standard</h5>
               <p className="card-text">Once-off</p>
