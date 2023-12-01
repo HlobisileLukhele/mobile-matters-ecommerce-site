@@ -64,8 +64,12 @@
 /* Styling he Home page  */
 
 .landing-page-img {
- max-width:80% !important;
- max-height:60% !important;
+  max-width:100% !important;
+  max-height:auto !important;
+  align-items: center !important;
+  margin: 10px 0 50px 0;
+  margin: 0 auto !important;
+  display: block !important;
 }
 
 @media (max-width: 768px) {
@@ -73,7 +77,14 @@
     max-width:100% !important;
     max-height:auto !important;
     align-items: center !important;
-    margin: 10px 0 50px 0;
+    margin: 10rem 0 50rem 0;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  .card-img-top img {
+    width: 20rem !important;
+    height: auto !important;
+
   }
 }
 
@@ -196,13 +207,16 @@ button:hover {
 /* Stylig the services page */
 
 .title, .price {
-color:rgb(223, 167, 83) !important;
+color:rgba(167, 139, 250, 1);
 font-weight:bold;
 font-size: 20px;
 text-align: center;
-margin: 50px 0 60px 0;
+margin: 25px 0 0 0;
 }
 
+.card-title {
+  color:rgba(167, 139, 250, 1); 
+}
 .card-text {
   color: white !important;
   font-weight: bold;
@@ -215,6 +229,7 @@ margin: 50px 0 60px 0;
   width:700px !important;
   display: block;
   margin: 0 auto;
+  align-items: center;
 }
 /* for mobile screen */
 
@@ -279,7 +294,48 @@ margin: 50px 0 60px 0;
   }
 }
 
+/*styling services card*/
 
+.card-services {
+  background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+}
+.desc {
+  color: rgba(156, 163, 175, 1);
+}
 
+.lists {
+  margin-bottom: 1.5rem;
+  flex: 1 1 0%;
+  color: rgba(156, 163, 175, 1);
+}
 
+.lists .list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  margin-left: 0.5rem;
+  line-height: 2rem;
+}
+.lists .list svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  line-height: 2rem;
+  color: rgba(167, 139, 250, 1);
+}
+
+.action {
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: rgba(167, 139, 250, 1);
+  padding: 1em 3em 1em 3em;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: rgba(17, 24, 39, 1);
+  margin-top: 2rem;
+}
+.card-services {
+ height: 30rem !important;
+}
 
