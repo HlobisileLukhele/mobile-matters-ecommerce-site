@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import {signInWithGoogle} from "./Firebase";
+
 
 const Profile = () => {
   const [username, setUsername] = useState('');
@@ -11,6 +13,7 @@ const Profile = () => {
   };
 
   return (
+    <div>
     <div className="profile-container">
       <h2 className="login mb-4 mt-4 ">Login to Your Account</h2>
       <form onSubmit={handleLogin} className="login-form">
@@ -40,10 +43,9 @@ const Profile = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">
-          Login
-        </button>
       </form>
+    </div>
+    <button onClick={signInWithGoogle} type="button" class="login-with-google-btn">Login with Google</button>
     </div>
   );
 };
