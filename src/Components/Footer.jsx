@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
 
-    <div classNameName="container-fluid my-5">
+    <div classNameName="container-fluid ">
   <footer
           classNameName="text-center text-lg-start text-white"
           style={{"background-color": '#1c2331'}}
@@ -29,8 +29,8 @@ const Footer = () => (
 
   
     <section className="">
-      <div className="container text-center text-md-start mt-5">
-        <div className="row mt-3">
+      <div className="container text-center text-md-start ">
+        <div className="row ">
         
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
            
