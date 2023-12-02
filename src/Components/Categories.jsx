@@ -3,6 +3,7 @@ import React from 'react';
 const Categories = () => {
     return (
 <div className="container mt-4 mb-4">
+<h2 className="categories text-center mb-4 mt-4 font-serif">CATEGORIES</h2>
 <div class="row mt-4">
   <div class="col-6 col-sm-6 col-md-6 mt-4 mb-4">
   <div class="card-deck">
