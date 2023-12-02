@@ -14,7 +14,7 @@ const BottomNavigationBar = () => {
 
   return (
 <div className="BottomNavigation container-fluid bottom-navbar d-xxl-none d-xl-none d-lg-none d-md-none">
-    <Box sx={{ width:340, height:100, position: 'fixed', top:715 }}>
+    <Box sx={{ width:380, height:100, position: 'fixed', top:715 }}>
       <BottomNavigation
         showlabel={true}
         value={value}
@@ -35,11 +35,11 @@ const BottomNavigationBar = () => {
        </Link>
 
        <Link to="/TrackOrder" className="nav-link">
-       <BottomNavigationAction label="Track Order" className="bottom-icon 4th" icon={<LocalShippingIcon />} />
+       <BottomNavigationAction label="Track Order" className="bottom-icon mt-4" icon={<LocalShippingIcon />} />
        </Link>
 
        <Link to="/SearchItem" className="nav-link">
-       <BottomNavigationAction label="Search product" className="bottom-icon 5th" icon={<FindInPageIcon />} />
+       <BottomNavigationAction label="Search product" className="bottom-icon mt-4" icon={<FindInPageIcon />} />
        </Link>
       </BottomNavigation>
     </Box>
