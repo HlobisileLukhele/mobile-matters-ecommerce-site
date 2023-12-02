@@ -24,7 +24,7 @@ const MyNavbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link to="/" className="navbar-brand justify-content-start! text-sm">
+          <Link to="/" className="navbar-brand justify-content-start! text-sm font-mono">
             Mobile Matters
           </Link>
           <button
@@ -51,7 +51,7 @@ const MyNavbar = () => {
               </li>
                <li className="nav-item">
                 <Link to="/services" className="nav-link">
-                  Website Services
+                  Web Services
                 </Link>
               </li>
               <li className="nav-item">
@@ -91,8 +91,6 @@ const MyNavbar = () => {
        className="nav-icon d-none d-md-block d-lg-block" 
        />
        </Link>
-
-       
         </div>
         </div>
       </nav>
