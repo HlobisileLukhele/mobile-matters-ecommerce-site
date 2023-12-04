@@ -1,4 +1,7 @@
 import React from 'react';
+import {Iphones,Andriods,Watches,Accessories} from './Categories'
+import { Link } from 'react-router-dom';
+
 
 const Categories = () => {
     return (
@@ -8,13 +11,15 @@ const Categories = () => {
   <div class="col-6 col-sm-6 col-md-6 mt-4 mb-4">
   <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="images/Products/Accessories-Banner.png" alt="Card image cap" />
+  <Link to="./Accessories"></Link>
+    <img class="card-img-top" src="images/Products/Accessories-Banner.png" alt="Card image cap" /> 
   </div>
   </div>
   </div>
   <div class="col-6 col-sm-6 col-md-6 mt-4 mb-4">
   <div class="card-deck">
   <div class="card">
+  <link to="./Iphones"></link>
     <img class="card-img-top" src="images/Products/iphones-banner.png" alt="Card image cap" />
   </div>
   </div>
@@ -22,6 +27,7 @@ const Categories = () => {
   <div class="col-6 col-sm-6 col-md-6">
   <div class="card-deck">
   <div class="card">
+  <Link to="./Andriods"></Link>
     <img class="card-img-top" src="images/Products/Android-Banner.png" alt="Card image cap" />
   </div>
   </div>
@@ -29,6 +35,7 @@ const Categories = () => {
   <div class="col-6 col-sm-6 col-md-6">
   <div class="card-deck">
   <div class="card">
+  <Link to="./Watches"></Link>
     <img class="card-img-top" src="images/Products/Watches-Banner.png" alt="Card image cap" />
   </div>
   </div>
