@@ -1,5 +1,5 @@
 import React from "react";
-import ProductsData from "./ProductsData.js";
+import ProductsData from "./ProductsData";
 
 export default  function ProductsList () {
     const Products = ProductsData;
