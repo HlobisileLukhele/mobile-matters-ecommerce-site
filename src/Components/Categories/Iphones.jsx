@@ -1,19 +1,22 @@
-import React, { Component } from 'react';
-import ProductsData from 'ProductsData'
+import ProductsData from "../ProductsData";
+
+
+
+const iphonesProducts = ProductsData.filter(product => product.category === 'iPhone');
+const Product = ProductsData;
 
 const Iphones = () => {
-    const Products = ProductsData;
     return (
         <div className="conatiner-fluid items-center mb-4">
-        <div className="row">
-        <div className="col-auto">
-            
+        {iphonesProducts.map(product => (
+            <div key={product.id} className="products-card">
+                <img src={product.image} alt={product.name} />
+                <h3>{product.name}</h3>
+                <p>{product.price}</p>
+            </div>
+        ))}
         </div>
+    );
+}
 
-        </div>
-        </div>
-
-    )
-    }
-
-export default PhoneFile;
+export default Iphones;
