@@ -15,6 +15,10 @@ import TrackOrder from './Components/TrackOrder';
 import BottomNavigationBar from './Components/BottomNavigationBar';
 import SearchItem from "./Components/SearchItem";
 import Categories from './Components/Categories';
+import Andriods from './Components/Categories/Andriods'
+import Iphones from './Components/Categories/Iphones'
+import Watches from './Components/Categories/Watches'
+import Accessories from './Components/Categories/Accessories'
 
 export default function App() {
   return (
@@ -33,6 +37,11 @@ export default function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/Categories" element={<Categories />} />
             <Route path="/SearchItem" element={<SearchItem />} />
+            <Route path="/SearchItem" element={<SearchItem />} />
+            <Route path="/Accessories" element={<Accessories />} />
+            <Route path="/Iphones" element={<Iphones />} />
+            <Route path="/Andriods" element={<Andriods />} />
+            <Route path="/Watches" element={<Watches />} />
           </Route>
         </Routes>
         <BottomNavigationBar />
