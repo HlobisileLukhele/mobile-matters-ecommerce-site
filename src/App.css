@@ -2,21 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   background-color: white !important;
   color: black !important;
 }
 
-.navbar-item {
-  color:black;
+.nav-item {
+  color:white;
 }
 #NavLink {
   color: black;
 }
 /* styling Navigation bar*/
-.bg-purple {
-  background-color:var(--heading-color)!important ;
+.bg-dark {
+  background-color:black !important ;
 }
 .page {
   color: var(--button-text) !important;
@@ -24,41 +29,34 @@
 }
 
 .nav-item {
-  margin: 0 35px 0px 20px !important;
-  color: var(--normal-text) !important;
+  color: white!important;
 
 }
 .nav-link {
   color: var(--normal-text) !important;
   font-family: 'Roboto', sans-serif;
   font-weight:bolder !important;
-  text-align: left !important;
+  text-align: center !important;
   display: flex !important;
   justify-content: flex-start !important;
 }
 .nav-link:hover {
   font-weight: bold !important;
-  text-decoration:underline 2pt solid  rgb(223, 167, 83) !important;
-  transform: 2s ease-in ;
-
+  color: (rgb(223, 167, 83))  !important;
 }
 .navbar-brand {
   font-family: 'Great Vibes',;
-  font-size: 32px !important;
-  align-items: start !important;
-  display: flex;
-  justify-content: flex-start !important;
+  font-size: 22px !important;
   
 }
-.active {
-  font-weight: bold;
-}
 .nav-icon{
-  padding: 8px !important;
+  display: flex;
+  align-items: flex-end;
+  padding: 7px !important;
   width: 2.6rem !important;
   height: auto !important;
-  color:  gray !important;
-  font-weight: bold;
+  color:  white ;
+  left: -130px;
 }
 
 /* Styling he Home page  */
