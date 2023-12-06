@@ -39,7 +39,7 @@ const BottomNavigationBar = () => {
        </Link>
 
        <Link to="/SearchItem" className="nav-link">
-       <BottomNavigationAction label="Search product" className="bottom-icon mt-4" icon={<FindInPageIcon />} />
+       <BottomNavigationAction label="Search" className="bottom-icon mt-2" icon={<FindInPageIcon />} />
        </Link>
       </BottomNavigation>
     </Box>
