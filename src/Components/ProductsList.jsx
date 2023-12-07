@@ -32,7 +32,7 @@ export default function ProductsList() {
                       })
                     )
                   }
-                  className="btn btn-secondary p-1 items-center"
+                  className="btn btn-secondary p-2 items-center"
                 >
                   Add to Cart
                 </button>
