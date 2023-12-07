@@ -18,7 +18,8 @@ const ContactForm = () => {
         <div className="form-group">
           <label htmlFor="fullname">Full Name</label>
           <input type='text' id="fullname" {...register("fullname",{
-            required: "Fullname is required"
+            required: "Fullname is required",
+            placeholder: "something@example.com"
           })} />
           <p className="error">{errors.fullname?.message}</p>
         </div>
@@ -26,7 +27,8 @@ const ContactForm = () => {
         <div className="form-group">
           <label htmlFor="email">Email</label>
           <input type='email' id="email" {...register("email", {
-            required: "email is required"
+            required: "email is required",
+            placeholder: "something@example.com"
           })} />
           <p className="error">{errors.email?.message}</p>
         </div>
@@ -34,7 +36,9 @@ const ContactForm = () => {
         <div className="form-group">
           <label htmlFor="message">Message</label>
           <textarea rows={10} cols={25} id="message" {...register("message", {
-            required: "Message is required"
+            required: "Message is required",
+            placeholder: "Say Something ..."
+
           })} />
           <p className="error">{errors.message?.message}</p>
         </div>
