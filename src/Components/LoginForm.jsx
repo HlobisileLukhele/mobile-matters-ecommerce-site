@@ -28,6 +28,7 @@ const Profile = () => {
             onChange={(e) => setUsername(e.target.value)}
             className="form-control"
             required
+            placeholder='Your Name'
           />
         </div>
         <div className="mb-4">
@@ -41,11 +42,11 @@ const Profile = () => {
             onChange={(e) => setPassword(e.target.value)}
             className="form-control"
             required
+            placeholder='Password'
           />
         </div>
-
         <div className="form-group">
-          <button className="btn btn-primary" type="submit">Submit</button>
+          <button className="btn btn-primary" type="submit">LOGIN</button>
         </div>
       </form>
     </div>
