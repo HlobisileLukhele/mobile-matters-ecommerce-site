@@ -14,14 +14,18 @@ const TrackOrder = () => {
   return (
     <div className="track-order-container">
       <h2 className="track-order mb-4 mt-4">Track Your Order</h2>
+      <form className="form-imput">
       <input
         type="text ml-2"
-        placeholder="Enter Order Number"
+        placeholder="   Enter Order Number"
         value={orderNumber}
         onChange={(e) => setOrderNumber(e.target.value)}
+        className="Search-item"
       />
-      <button onClick={trackOrder} className="btn btn-secondary mr-2">Track</button>
-      {orderStatus && <p>Your order status: {orderStatus}</p>}
+      <button onClick={trackOrder} className="btn btn-secondary mr-2 search-btn">Track</button>
+      {orderStatus && <p className="mt-4 ">Your order status: {orderStatus}</p>}
+      </form>
+      
     </div>
   );
 };
