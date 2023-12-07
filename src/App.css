@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,200&display=swap');
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,50 +20,51 @@
   color: black !important;
 }
 
-.nav-item {
-  color:white;
-}
-#NavLink {
-  color: black;
-}
+
 /* styling Navigation bar*/
-.bg-dark {
-  background-color:black !important ;
-}
 .page {
-  color: var(--button-text) !important;
   font-weight:bolder !important;
 }
 
-.nav-item {
-  color: white!important;
+ nav ul { 
+  display: flex;
+  color:black;
 
 }
-.nav-link {
-  color: var(--normal-text) !important;
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color:black;
+  padding-right: 15rem !important;
+
+}
+.nav-item, .nav-link {
   font-family: 'Roboto', sans-serif;
   font-weight:bolder !important;
   text-align: center !important;
   display: flex !important;
   justify-content: flex-start !important;
+  color:black !important; 
 }
-.nav-link:hover {
-  font-weight: bold !important;
-  color: (rgb(223, 167, 83))  !important;
+.nav-item {
+  margin: 5px;
 }
 .navbar-brand {
-  font-family: 'Great Vibes',;
+  font-family: 'Great Vibes',italic;
   font-size: 22px !important;
-  
+  text-align: center !important;
+  margin-right: 5rem !important;
+  margin-left: 0 !important;
 }
 .nav-icon{
   display: flex;
-  align-items: flex-end;
-  padding: 7px !important;
+  align-items: right !important;
+  padding: 9px !important;
   width: 2.6rem !important;
   height: auto !important;
-  color:  white ;
-  left: -130px;
+  color:  black ;
+  letter-spacing: 1rem;
 }
 
 /* Styling he Home page  */
@@ -84,17 +92,109 @@
     height: auto !important;
 
   }
+  
+.nav-item, .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight:bolder !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  color:black !important; 
+}
+.navbar-brand {
+  font-family: 'Great Vibes',italic;
+  font-size: 22px !important;
+  text-align: center !important;
+}
+.nav-icon{
+  display: flex;
+  align-items: right !important;
+  padding: 9px !important;
+  width: 2.6rem !important;
+  height: auto !important;
+  color:  black ;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  width: 90% !important; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  color:black !important;
+  font-weight:bold;
+  align-items: right !important;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form {
+  width: 65% !important;
+  margin: 0 auto;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  text-align: start !important;
+  margin-bottom: 20px !important;
+  margin-left: 12px !important;
+  height: 20px !important;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 10px solid black !important;
+  border-radius: 10px !important;
+  border: 4pt solid black;
+  margin-bottom: 1rem;
+}
 }
 
 /* Styling Profile Page */
 .profile-container {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .login-form {
-  width: 35%;
+  width: 25%;
   margin: 0 auto;
+  
 }
 
 .form-group {
@@ -112,28 +212,37 @@
 .form-control {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgb(223, 167, 83) !important;
+  border: 1px solid black !important;
   border-radius: 4px;
+  border: 4pt solid black;
+
 }
 
 .btn-primary {
-  background-color: white !important;
-  color: black !important;
-  border: 2pt solid  rgb(223, 167, 83) !important ;
+  background-color: black !important;
+  color: white !important;
+  border: 2pt solid  black !important ;
   font-weight:bold !important;
   margin-bottom: 20px;
+  padding: 0.6rem 4rem 0.6rem 4rem !important;
+  border-radius: 10px !important;
+
 }
 .btn-primary:hover {
-  background-color: rgb(223, 167, 83) !important;
   border: 2pt solid black !important;
   margin-bottom: 20px;
+  background-color: white !important;
+  color: black !important;
+  transition: 1sec ease-in-out !important;
 }
 .Active {
-  background-color: rgb(223, 167, 83) !important;
+  background-color: black !important;
+  color: white !important;
+  transition: 1sec ease-in-out !important;
 }
 /*Styling Bottom Navigation Bar*/
 .bottom-icon{
-  color:gray !important;
+  color:black !important;
   font-weight: 600;
 }
 .bottom-icon:hover {
@@ -169,7 +278,7 @@
 
 label {
   margin-bottom: 5px;
-  color:rgb(223, 167, 83) !important;
+  color:black !important;
   font-weight:bold;
   align-items: right !important;
 }
@@ -185,7 +294,7 @@ textarea {
 }
 
 button {
-  background-color: #007bff;
+  background-color: black;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -337,3 +446,26 @@ margin: 25px 0 0 0;
  height: 30rem !important;
 }
 
+/*stylinf search form */
+.Search-item {
+  border: 2pt solid black;
+  margin-right: 10px;
+  height: 45px !important;
+  border-radius: 6px !important;
+  margin: 7px;
+}
+.search-btn {
+  background-color:black !important;
+  margin-top: 0 !important;
+  font-size: 15px !important;
+  padding: 15px 20px 6px 20px !important;
+  align-items:center;
+
+}
+.form-input {
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.btn-secondary {
+  background-color: black !important;
+}
