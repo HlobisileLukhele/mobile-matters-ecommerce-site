@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MyNavbar from './Components/MyNavbar';
 import Home from './Components/Home';
@@ -10,7 +9,7 @@ import Services from './Components/Services';
 import Shop from './Components/Shop';
 import Profile from './Components/Profile';
 import WishList from './Components/WishList';
-import Cart from './Components/Cart';
+import CartItem from './Components/CartItem';
 import TrackOrder from './Components/TrackOrder';
 import BottomNavigationBar from './Components/BottomNavigationBar';
 import SearchItem from "./Components/SearchItem";
@@ -20,11 +19,11 @@ import Iphones from './Components/Categories/Iphones';
 import Watches from './Components/Categories/Watches';
 import Accessories from './Components/Categories/Accessories';
 import NotFound from './Components/NotFound';
-import CartItem from './Components/CartItem';
 
 const App = () => {
   return (
     <div className="App">
+    <React.Fragment> 
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<MyNavbar />}>
@@ -48,11 +47,10 @@ const App = () => {
         </Routes>
         <BottomNavigationBar />
       </BrowserRouter>
+      </React.Fragment>
     </div>
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
 export default App;
