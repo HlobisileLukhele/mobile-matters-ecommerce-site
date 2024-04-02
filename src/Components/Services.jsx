@@ -50,7 +50,7 @@ const Services = () => (
       <div className="card-services card md:mb-4   sm:mb-4 items-center ml-2 mr-3 " style={{ width:"24em"}} >
       <h5 className="card-title title">E-COMMERCE</h5>
               <p className="card-text ">Once-off</p>
-              <p className="card-title price text-white">R3999</p>
+              <p className="card-title price text-white">R4999</p>
       <div className="card-body ml-1 mr-1 items-center"  style={{ width:"24em" }} >
         <ul className="lists">
           <li className="list">
