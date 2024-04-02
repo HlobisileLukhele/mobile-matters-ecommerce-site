@@ -16,7 +16,7 @@ const BottomNavigationBar = () => {
 <div className="BottomNavigation container-fluid bottom-navbar d-xxl-none d-xl-none d-lg-none d-md-none">
     <Box sx={{ width:380, height:100, position: 'fixed', top:715 }}>
       <BottomNavigation
-        showlabel={true}
+        showlabel={true.toString()}
         value={value}
         onChange={(event, newValue) => {
         setValue(newValue);
