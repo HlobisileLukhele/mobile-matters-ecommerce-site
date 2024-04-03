@@ -320,7 +320,6 @@ font-size: 20px;
 text-align: center;
 margin: 25px 0 0 0;
 }
-
 .card-title {
   color:rgba(167, 139, 250, 1); 
 }
@@ -330,7 +329,6 @@ margin: 25px 0 0 0;
   font-size: 16px;
   text-align: center;
 }
-
 .landing-page {
   height:520px !important;
   width:700px !important;
@@ -339,8 +337,6 @@ margin: 25px 0 0 0;
   align-items: center;
 }
 /* for mobile screen */
-
-
 
 @media only screen and (max-width: 600px) {
   .col-sm {
@@ -409,23 +405,18 @@ margin: 25px 0 0 0;
 .desc {
   color: rgba(156, 163, 175, 1);
 }
-
 .lists {
-  margin-bottom: 1.5rem;
-  flex: 1 1 0%;
+  margin-bottom: 1.5rem;;
   color: rgba(156, 163, 175, 1);
 }
-
 .lists .list {
   margin-bottom: 0.5rem;
-  display: flex;
   margin-left: 0.5rem;
   line-height: 2rem;
 }
 .lists .list svg {
   height: 1.5rem;
   width: 1.5rem;
-  flex-shrink: 0;
   margin-right: 0.5rem;
   line-height: 2rem;
   color: rgba(167, 139, 250, 1);
@@ -446,6 +437,7 @@ margin: 25px 0 0 0;
  height: 30rem !important;
 }
 
+
 /*stylinf search form */
 .Search-item {
   border: 2pt solid black;
@@ -460,7 +452,6 @@ margin: 25px 0 0 0;
   font-size: 15px !important;
   padding: 10px 20px 6px 20px !important;
   align-items:center;
-
 }
 .form-input {
   align-items: center !important;
