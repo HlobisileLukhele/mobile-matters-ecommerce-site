@@ -3,7 +3,7 @@ import { addToCart } from "../Features/cartSlice";
 
 function Item({id,title, image, price}) {
     const dispatch = useDispatch()
-}
+
 
 return (
     <div className="item">
@@ -21,3 +21,5 @@ return (
         }> Add to Cart</button>
     </div>
 )
+
+}
