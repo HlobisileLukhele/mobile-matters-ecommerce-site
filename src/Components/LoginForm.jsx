@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { AuthErrorCodes, getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { firebaseApp } from "../services/firebase";
-import {signInWithGoogle} from "./Firebase";
+import { firebaseApp } from "./firebase";
 
 function LoginForm() {
   const [input, setInput] = useState({ email: "", password: "" });
@@ -75,7 +74,7 @@ function LoginForm() {
         </div>
       </form>
     </div>
-    <button onClick={signInWithGoogle} type="button" class="login-with-google-btn">Login with Google</button>
+    <button type="button" class="login-with-google-btn">Login with Google</button>
     </div>
   );
 };
