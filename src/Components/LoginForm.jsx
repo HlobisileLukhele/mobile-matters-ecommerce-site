@@ -1,16 +1,41 @@
 import React, { useState } from 'react';
+import { AuthErrorCodes, getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { firebaseApp } from "../services/firebase";
 import {signInWithGoogle} from "./Firebase";
 
+function LoginForm() {
+  const [input, setInput] = useState({ email: "", password: "" });
+  const [error, setError] = useState(null);
 
-const Profile = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  // Initialize auth instance
+  const auth = getAuth(firebaseApp);
 
+  // Handle form submit
   const handleLogin = (e) => {
     e.preventDefault();
-    // to add your authentication logic.
-    alert('Logged in successfully!');
+    setError("");
+    const email = input.email.toLocaleLowerCase().trim();
+    const password = input.password;
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Sign in
+        console.log(userCredential.user);
+        // ...
+      })
+      .catch((error) => {
+        if (
+          error.code === AuthErrorCodes.INVALID_PASSWORD ||
+          error.code === AuthErrorCodes.USER_DELETED
+        ) {
+          setError("The email or password is incorrect");
+        } else {
+          console.log(error.code);
+          alert(error.code);
+        }
+      });
   };
+
 
   return (
     <div>
@@ -24,8 +49,8 @@ const Profile = () => {
           <input
             type="text"
             id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
             className="form-control"
             required
             placeholder='Your Name'
@@ -38,8 +63,8 @@ const Profile = () => {
           <input
             type="password"
             id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
             className="form-control"
             required
             placeholder='Password'
@@ -54,5 +79,4 @@ const Profile = () => {
     </div>
   );
 };
-
-export default Profile;
+export default LoginForm;
