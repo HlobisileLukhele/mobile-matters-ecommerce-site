@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { AuthErrorCodes, getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { firebaseApp } from "./firebase";
 
 function LoginForm() {
   const [input, setInput] = useState({ email: "", password: "" });
   const [error, setError] = useState(null);
 
   // Initialize auth instance
-  const auth = getAuth(firebaseApp);
+  const auth = getAuth();
 
   // Handle form submit
   const handleLogin = (e) => {
