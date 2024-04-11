@@ -1,12 +1,14 @@
 import React from 'react';
-import LoginForm from './LoginForm'
-import {signInWithGoogle} from "./Firebase";
-
+import SignIn from "./GoogleSignIn/SignIn";
+import SignUp from './GoogleSignIn/Signup';
+import AuthDetails from './GoogleSignIn/AuthDetails';
 
 const Profile = () => {
   return (
     <div className="profile-container">
-    <LoginForm />
+    <SignIn />
+    <SignUp />
+    <AuthDetails />
     </div>
   );
 };
