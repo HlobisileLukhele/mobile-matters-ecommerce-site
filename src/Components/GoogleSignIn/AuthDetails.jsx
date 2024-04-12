@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {auth}  from './Firebase';
 import { onAuthStateChanged,signOut } from 'firebase/auth';
 
+
 //initialize authUser
 const AuthDetails = () => {
     const [authUser, setAuthUser] = useState(null);
@@ -26,6 +27,7 @@ const AuthDetails = () => {
             console.log('signed out successful')
         }).catch(error => console.log(error))
     }
+    
 //display the auth user when signed in
   return (
     <div>

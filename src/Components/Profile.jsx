@@ -6,8 +6,8 @@ import AuthDetails from './GoogleSignIn/AuthDetails';
 const Profile = () => {
   return (
     <div className="profile-container">
-    <SignIn />
     <SignUp />
+    <SignIn />
     <AuthDetails />
     </div>
   );
