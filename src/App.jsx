@@ -19,6 +19,7 @@ import Iphones from './Components/Categories/Iphones';
 import Watches from './Components/Categories/Watches';
 import Accessories from './Components/Categories/Accessories';
 import NotFound from './Components/NotFound';
+import SignIn from './Components/GoogleSignIn/SignIn';  
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
               <Route path="/Iphones" element={<Iphones />} />
               <Route path="/Andriods" element={<Andriods />} />
               <Route path="/Watches" element={<Watches />} />
+              <Route path="/SignIn" element={<SignIn />} />
             </Route> 
         </Routes>
         <BottomNavigationBar />
