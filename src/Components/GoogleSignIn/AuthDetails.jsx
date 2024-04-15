@@ -15,7 +15,6 @@ const AuthDetails = () => {
                 setAuthUser(null);
             }
         });
-
         return () => {
             listen();
         }

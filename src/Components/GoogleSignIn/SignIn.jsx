@@ -22,15 +22,16 @@ const SignIn = () => {
 
   return (
      <div className='sign-in-container'>
-      <form onSubmit={signIn} id="signin">
-      <h2 className="login mt-5 pb-4">Log in To your Account </h2>
-      <label htmlFor="email" className="form-label font-medium"> Email Address: </label>
+      <form onSubmit={signIn} id="signin" className="pt-4 pb-2 ">
+      <h2 className="login mt-5 mb-4">Log in to your Account </h2>
+      <label htmlFor="email" className="form-label font-medium "> Email Address: </label>
       <input 
       className='form-control ' 
       type="text"
       id="email" 
       placeholder='Enter your email' 
       value={email}
+      autocomplete
       onChange={(e) => setEmail(e.target.value)}
       ></input>
       <label htmlFor="email" className="form-label font-medium"> Password: </label>
@@ -41,8 +42,9 @@ const SignIn = () => {
       placeholder='Enter your password' 
       value={password}
       onChange={(e) => setPassword(e.target.value)}
+      autocomplete
       ></input>
-      <span className="signin-link d-flex align-right  bg-gray-600 mb-3 mt-2 "><i>Forgot Password</i></span>
+      <span className="signin-link d-flex align-right  bg-gray-600 mb-3 mt-4 "><i>Forgot Password</i></span>
       <button type="submit btn btn-primary border-radius-4 pt-2" className='btn btn-primary'> Sign In </button>
     
       </form>
