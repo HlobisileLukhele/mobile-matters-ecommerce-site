@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from './Footer'
 
-
 const Home = () => (
   <div className="Container-fluid mb-4">
   <div>
