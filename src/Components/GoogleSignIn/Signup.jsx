@@ -8,7 +8,6 @@ import { auth } from './Firebase';
     const [password, setPassword] = useState('');
 
   //function handle sign in with user credentials and prevent loading and submit event 
-
     const signUp = (e) => {
        e.preventDefault();
        createUserWithEmailAndPassword(auth, email, password)
@@ -19,7 +18,7 @@ import { auth } from './Firebase';
        })
     }
 
-    //created form to display  input fields for email and password
+  //created form to display  input fields for email and password
   return (
      <div className='sign-in-container'>
       <form onSubmit={signUp} id="signup">

@@ -1,7 +1,6 @@
 import React from "react";
 import ProductsData from "./ProductsData";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../Features/cartSlice";
 
 export default function ProductsList() {
   const dispatch = useDispatch();
@@ -24,13 +23,13 @@ export default function ProductsList() {
                 <button
                   onClick={() =>
                     dispatch(
-                      addToCart({
+                     {
                         id: product.id,
                         title: product.name,
                         image: product.image,
                         price: product.price,
                       })
-                    )
+                  
                   }
                   className="btn btn-secondary p-2 items-center"
                 >
