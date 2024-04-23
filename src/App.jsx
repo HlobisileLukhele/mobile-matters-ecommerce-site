@@ -9,7 +9,6 @@ import Services from './Components/Services';
 import Shop from './Components/Shop';
 import Profile from './Components/Profile';
 import WishList from './Components/WishList';
-import CartItem from './Components/CartItem';
 import TrackOrder from './Components/TrackOrder';
 import BottomNavigationBar from './Components/BottomNavigationBar';
 import SearchItem from "./Components/SearchItem";
@@ -37,7 +36,6 @@ const App = () => {
               <Route path="WishList" element={<WishList />} />
               <Route path="/TrackOrder" element={<TrackOrder />} />
               <Route path="/profile" element={<Profile />} />
-              <Route path="/CartItem" element={<CartItem />} />
               <Route path="/Categories" element={<Categories />} />
               <Route path="/SearchItem" element={<SearchItem />} />
               <Route path="/Accessories" element={<Accessories />} />
