@@ -1,9 +1,7 @@
 import React from "react";
 import ProductsData from "./ProductsData";
-import { useDispatch } from "react-redux";
 
 export default function ProductsList() {
-  const dispatch = useDispatch();
   const Products = ProductsData;
 
   return (
@@ -22,7 +20,7 @@ export default function ProductsList() {
                 <p className="card-text text-black">Price: R{product.price}</p>
                 <button
                   onClick={() =>
-                    dispatch(
+                    (
                      {
                         id: product.id,
                         title: product.name,
