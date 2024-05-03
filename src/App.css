@@ -183,63 +183,6 @@ button {
   margin-bottom: 1rem;
 }
 }
-
-/* Styling Profile Page */
-.profile-container {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
-
-.login-form {
-  width: 25%;
-  margin: 0 auto;
-  
-}
-
-.form-group {
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
-
-.form-label {
-  display: block;
-  font-weight: bold;
-  text-align: start !important;
-  margin-bottom: 20px;
-  margin-left: 12px !important;
-}
-.form-control {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid black !important;
-  border-radius: 4px;
-  border: 4pt solid black;
-
-}
-
-.btn-primary {
-  background-color: black !important;
-  color: white !important;
-  border: 2pt solid  black !important ;
-  font-weight:bold !important;
-  margin-bottom: 20px;
-  padding: 0.6rem 4rem 0.6rem 4rem !important;
-  border-radius: 10px !important;
-
-}
-.btn-primary:hover {
-  border: 2pt solid black !important;
-  margin-bottom: 20px;
-  background-color: white !important;
-  color: black !important;
-  transition: 1sec ease-in-out !important;
-}
-.Active {
-  background-color: black !important;
-  color: white !important;
-  transition: 1sec ease-in-out !important;
-}
 /*Styling Bottom Navigation Bar*/
 .bottom-icon{
   color:black !important;
@@ -259,56 +202,6 @@ button {
 
 #label {
   color:black !important;
-}
-/* styling the contat form */
-.form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.contact-form {
-  width: 450px; 
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-label {
-  margin-bottom: 5px;
-  color:black !important;
-  font-weight:bold;
-  align-items: right !important;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: black;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-.error {
-  color:red;
-  font-size:12px;
-  text-align:left;
 }
 
 /* Stylig the services page */
@@ -436,7 +329,6 @@ margin: 25px 0 0 0;
 .card-services {
  height: 30rem !important;
 }
-
 
 /*stylinf search form */
 .Search-item {
