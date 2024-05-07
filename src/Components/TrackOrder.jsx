@@ -22,10 +22,9 @@ const TrackOrder = () => {
         onChange={(e) => setOrderNumber(e.target.value)}
         className="Search-item"
       />
-      <button onClick={trackOrder} className="btn btn-secondary mr-2 search-btn">Track</button>
+      <button onClick={trackOrder} className="btn btn-secondary ">Track</button>
       {orderStatus && <p className="mt-4 ">Your order status: {orderStatus}</p>}
       </form>
-      
     </div>
   );
 };
