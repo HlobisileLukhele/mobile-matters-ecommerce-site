@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,200&display=swap');
 
-
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -206,44 +202,45 @@ button {
 
 /* Stylig the services page */
 
-.title, .price {
-color:rgba(167, 139, 250, 1);
-font-weight:bold;
-font-size: 20px;
-text-align: center;
-margin: 25px 0 0 0;
-}
-.card-title {
-  color:rgba(167, 139, 250, 1); 
-}
-.card-text {
-  color: white !important;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-}
-.landing-page {
-  height:520px !important;
-  width:700px !important;
-  display: block;
-  margin: 0 auto;
-  align-items: center;
-}
-/* for mobile screen */
 
-@media only screen and (max-width: 600px) {
-  .col-sm {
-    align-items: center !important;
-    display:block !important;
-    margin:0 auto !important;
+.title, .price {
+  color:rgba(167, 139, 250, 1);
+  font-weight:bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 25px 0 0 0;
+  }
+  .card-title {
+    color:rgba(167, 139, 250, 1); 
+  }
+  .card-text {
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
   }
   .landing-page {
-    height:100% !important;
-    width:auto;
+    height:520px !important;
+    width:700px !important;
     display: block;
     margin: 0 auto;
+    align-items: center;
   }
-}
+  /* for mobile screen */
+  
+  @media only screen and (max-width: 600px) {
+    .col-sm {
+      align-items: center !important;
+      display:block !important;
+      margin:0 auto !important;
+    }
+    .landing-page {
+      height:100% !important;
+      width:auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
 
 
 /*stylig the google button sign in */
