@@ -1,5 +1,6 @@
 import React from "react";
 import ProductsData from "./ProductsData";
+import product from "../Images/Products"
 
 export default function ProductsList() {
   const Products = ProductsData;
