@@ -1,5 +1,8 @@
 import React from "react";
 import FeaturedProductsData from "./FeaturedproductsData";
+import product  from /images/products;
+
+
 export default function FeatureProductsList() {
   const Products = FeaturedProductsData;
 
